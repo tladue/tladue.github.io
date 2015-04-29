@@ -1,0 +1,120 @@
+&lt;form id=&quot;quick-search&quot; class=&quot;quick-search&quot;&gt;
+	
+	&lt;span class=&quot;heading-info xs-hidden&quot; data-set=&quot;heading-info&quot;&gt;
+		&lt;span class=&quot;rover&quot;&gt;Vehicles Available &lt;strong&gt;100&lt;/strong&gt;&lt;/span&gt;
+	&lt;/span&gt;
+	&lt;h2 class=&quot;large&quot;&gt;Quick Vehicle Search&lt;/h2&gt;
+	&lt;span class=&quot;heading-info xs-visible&quot; data-set=&quot;heading-info&quot;&gt;&lt;/span&gt;
+
+	&lt;div class=&quot;search-criteria xs-visible&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;
+			Make
+			&lt;span class=&quot;filter&quot;&gt;Nissan&lt;/span&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;
+			Model
+			&lt;span class=&quot;filter&quot;&gt;5 Series&lt;/span&gt;
+		&lt;/a&gt;
+		&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;Year&lt;/a&gt;
+		&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;Mileage&lt;/a&gt;
+		&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;Price Range&lt;/a&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;form-group select col-sm-3 col-md-2&quot; data-xs-sheet=&quot;make-sheet&quot;&gt;
+		    &lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;X&lt;/a&gt;
+		    
+		    &lt;label class=&quot;control-label&quot; for=&quot;qs-make&quot;&gt;Make&lt;/label&gt;
+		    &lt;select class=&quot;form-control&quot; id=&quot;qs-make&quot;&gt;
+		        &lt;option&gt;Nissan&lt;/option&gt;
+		        &lt;option&gt;Infiniti&lt;/option&gt;
+		        
+		    &lt;/select&gt;
+
+		    &lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;Done&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;form-group select col-sm-3 col-md-2&quot; data-xs-sheet=&quot;model-sheet&quot;&gt;
+		    &lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;X&lt;/a&gt;
+
+		    &lt;label class=&quot;control-label&quot; for=&quot;qs-model&quot;&gt;Model&lt;/label&gt;
+		    &lt;select class=&quot;form-control&quot; id=&quot;qs-model&quot;&gt;
+		        &lt;option&gt;Option One&lt;/option&gt;
+		        &lt;option&gt;Option Two&lt;/option&gt;
+		        &lt;option&gt;Option Three&lt;/option&gt;
+		    &lt;/select&gt;
+
+		    &lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;Done&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;form-group select col-sm-6 col-md-4&quot; data-xs-sheet=&quot;year-sheet&quot;&gt;
+		    &lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;X&lt;/a&gt;
+
+		    &lt;label&gt;Year&lt;/label&gt;
+		    &lt;div class=&quot;control-range&quot;&gt;
+			    
+			    &lt;div class=&quot;range-group&quot;&gt;
+				    &lt;select class=&quot;form-control&quot; id=&quot;qs-year-start&quot;&gt;
+				        &lt;option&gt;2012&lt;/option&gt;
+				        &lt;option&gt;2013&lt;/option&gt;
+				        &lt;option&gt;2014&lt;/option&gt;
+				    &lt;/select&gt;
+				    &lt;label class=&quot;visually-hidden&quot; for=&quot;qs-year-start&quot;&gt;Year&lt;/label&gt;
+				&lt;/div&gt;
+
+			    &lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+			    &lt;div class=&quot;range-group&quot;&gt;
+				    &lt;select class=&quot;form-control&quot; id=&quot;qs-year-end&quot;&gt;
+				        &lt;option&gt;2012&lt;/option&gt;
+				        &lt;option&gt;2013&lt;/option&gt;
+				        &lt;option&gt;2014&lt;/option&gt;
+				    &lt;/select&gt;
+				    &lt;label class=&quot;visually-hidden&quot; for=&quot;qs-year-end&quot;&gt;Year&lt;/label&gt;
+			    &lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;Done&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;form-group select col-sm-3 col-md-2&quot; data-xs-sheet=&quot;mileage-sheet&quot;&gt;
+		    &lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;X&lt;/a&gt;
+
+		    &lt;label class=&quot;control-label&quot; for=&quot;qs-mileage&quot;&gt;Mileage&lt;/label&gt;
+		    &lt;select class=&quot;form-control&quot; id=&quot;qs-mileage&quot;&gt;
+		        &lt;option&gt;Option One&lt;/option&gt;
+		        &lt;option&gt;Option Two&lt;/option&gt;
+		        &lt;option&gt;Option Three&lt;/option&gt;
+		    &lt;/select&gt;
+
+		    &lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;Done&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;form-group select col-sm-3 col-md-2&quot; data-xs-sheet=&quot;price-sheet&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;X&lt;/a&gt;
+
+		    &lt;label fclass=&quot;control-label&quot; or=&quot;qs-price&quot;&gt;Price Range&lt;/label&gt;
+		    &lt;select class=&quot;form-control&quot; id=&quot;qs-price&quot;&gt;
+		        &lt;option&gt;Option One&lt;/option&gt;
+		        &lt;option&gt;Option Two&lt;/option&gt;
+		        &lt;option&gt;Option Three&lt;/option&gt;
+		    &lt;/select&gt;
+
+		    &lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;Done&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;col-sm-6 col-md-12&quot;&gt;
+			&lt;div class=&quot;row last-row quick-search-action&quot;&gt;
+				&lt;div class=&quot;alt-links col-sm-12 col-md-5 col-md-offset-5&quot;&gt;
+					&lt;a href=&quot;#&quot;&gt;My Saved Searches&lt;/a&gt;
+					&lt;a href=&quot;#&quot;&gt;Advanced Search&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-sm-12 col-md-2&quot;&gt;
+				    &lt;button class=&quot;btn&quot;&gt;Search&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/form&gt;

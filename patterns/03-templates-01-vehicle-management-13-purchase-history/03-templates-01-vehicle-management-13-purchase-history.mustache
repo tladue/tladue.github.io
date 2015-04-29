@@ -1,0 +1,25 @@
+&lt;section class=&quot;container&quot; role=&quot;main&quot;&gt;
+	
+	{{&gt; molecules-purchase-search }}
+	
+	&lt;header class=&quot;content-header&quot;&gt;
+		&lt;span class=&quot;heading-info xs-hidden&quot; data-set=&quot;heading-info&quot;&gt;
+			&lt;span class=&quot;rover&quot;&gt;Pending Auctions &lt;strong&gt;9&lt;/strong&gt;&lt;/span&gt;
+		&lt;/span&gt;
+		&lt;h1&gt;My Current Bids&lt;/h1&gt;
+
+		&lt;div class=&quot;row header-filter xs-hidden&quot; data-set=&quot;current-bid-sort&quot;&gt;
+			{{&gt; molecules-sort-by-select}}
+		&lt;/div&gt;
+
+		&lt;div class=&quot;row xs-visible&quot; data-set=&quot;current-bid-sort&quot;&gt;&lt;/div&gt;
+
+		&lt;div class=&quot;xs-visible&quot; data-set=&quot;heading-info&quot;&gt;&lt;/div&gt;
+
+	&lt;/header&gt;
+
+	{{&gt; organisms-current-bids-listings}}
+
+	{{&gt; organisms-search-pagination}}
+
+&lt;/section&gt;

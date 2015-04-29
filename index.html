@@ -1,16 +1,409 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
-
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>UX</title>
-	<meta name="generator" content="TextMate http://macromates.com/">
-	<meta name="author" content="Ted Ladue">
-	<!-- Date: 2015-04-23 -->
+<!DOCTYPE html>
+<html id="patternlab-html">
+<head id="patternlab-head">
+	<title id="title">Pattern Lab</title>
+	<meta charset="UTF-8">
+	
+	<!-- never cache patterns -->
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styleguide/css/styleguide.css?1430333893" media="all" />
+	<link rel="stylesheet" href="styleguide/css/styleguide-specific.css?1430333893" media="all" />
+	<link rel="stylesheet" href="styleguide/css/vendor/typeahead.css?1430333893" media="all" />
+	<link rel="stylesheet" href="styleguide/css/vendor/prism.css?1430333893" media="all" />
+	
+	<script src="styleguide/js/vendor/jquery.js"></script>
 </head>
-<body>
-	<h1>UX links</h1>
-	Will put patternLab link here.
+<body  id="patternlab-body">
+	<!--Style Guide Header-->
+	<header class="sg-header" role="banner">
+		<a href="#sg-nav-container" class="sg-nav-toggle"><span class="icon-menu"></span>Menu</a>
+		<div class="sg-nav-container" id="sg-nav-container">
+			<ol class="sg-nav">
+					<li class="sg-nav-atoms"><a class="sg-acc-handle">Atoms</a><ol class="sg-acc-panel">
+						<li class="sg-nav-global"><a class="sg-acc-handle">Global</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-01-global-00-colors/00-atoms-01-global-00-colors.html" class="sg-pop  " data-patternpartial="atoms-colors">Colors</a></li>
+							<li><a href="patterns/00-atoms-01-global-01-fonts/00-atoms-01-global-01-fonts.html" class="sg-pop  " data-patternpartial="atoms-fonts">Fonts</a></li>
+							<li><a href="patterns/00-atoms-01-global/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-global">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-text"><a class="sg-acc-handle">Text</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-02-text-00-headings/00-atoms-02-text-00-headings.html" class="sg-pop  " data-patternpartial="atoms-headings">Headings</a></li>
+							<li><a href="patterns/00-atoms-02-text-03-listing-elements/00-atoms-02-text-03-listing-elements.html" class="sg-pop  " data-patternpartial="atoms-listing-elements">Listing Elements</a></li>
+							<li><a href="patterns/00-atoms-02-text-06-hr/00-atoms-02-text-06-hr.html" class="sg-pop  " data-patternpartial="atoms-hr">Hr</a></li>
+							<li><a href="patterns/00-atoms-02-text-07-striped-list/00-atoms-02-text-07-striped-list.html" class="sg-pop  " data-patternpartial="atoms-striped-list">Striped List</a></li>
+							<li><a href="patterns/00-atoms-02-text/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-text">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-images"><a class="sg-acc-handle">Images</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-04-images-00-logo/00-atoms-04-images-00-logo.html" class="sg-pop  " data-patternpartial="atoms-logo">Logo</a></li>
+							<li><a href="patterns/00-atoms-04-images/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-images">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-forms"><a class="sg-acc-handle">Forms</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-05-forms-00-text-fields/00-atoms-05-forms-00-text-fields.html" class="sg-pop  " data-patternpartial="atoms-text-fields">Text Fields</a></li>
+							<li><a href="patterns/00-atoms-05-forms-01-select-menu/00-atoms-05-forms-01-select-menu.html" class="sg-pop  " data-patternpartial="atoms-select-menu">Select Menu</a></li>
+							<li><a href="patterns/00-atoms-05-forms-02-checkbox/00-atoms-05-forms-02-checkbox.html" class="sg-pop  " data-patternpartial="atoms-checkbox">Checkbox</a></li>
+							<li><a href="patterns/00-atoms-05-forms-03-radio-buttons/00-atoms-05-forms-03-radio-buttons.html" class="sg-pop  " data-patternpartial="atoms-radio-buttons">Radio Buttons</a></li>
+							<li><a href="patterns/00-atoms-05-forms-04-date-picker/00-atoms-05-forms-04-date-picker.html" class="sg-pop  " data-patternpartial="atoms-date-picker">Date Picker</a></li>
+							<li><a href="patterns/00-atoms-05-forms/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-forms">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-buttons"><a class="sg-acc-handle">Buttons</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-06-buttons-00-buttons/00-atoms-06-buttons-00-buttons.html" class="sg-pop  " data-patternpartial="atoms-buttons">Buttons</a></li>
+							<li><a href="patterns/00-atoms-06-buttons/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-buttons">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-feedback"><a class="sg-acc-handle">Feedback</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-07-feedback-00-alert/00-atoms-07-feedback-00-alert.html" class="sg-pop  " data-patternpartial="atoms-alert">Alert</a></li>
+							<li><a href="patterns/00-atoms-07-feedback/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-feedback">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-tables"><a class="sg-acc-handle">Tables</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/00-atoms-08-tables-00-tables/00-atoms-08-tables-00-tables.html" class="sg-pop  " data-patternpartial="atoms-tables">Tables</a></li>
+							<li><a href="patterns/00-atoms-08-tables-03-small-tables/00-atoms-08-tables-03-small-tables.html" class="sg-pop  " data-patternpartial="atoms-small-tables">Small Tables</a></li>
+							<li><a href="patterns/00-atoms-08-tables-05-chart/00-atoms-08-tables-05-chart.html" class="sg-pop  " data-patternpartial="atoms-chart">Chart</a></li>
+							<li><a href="patterns/00-atoms-08-tables/index.html" class="sg-pop  " data-patternpartial="viewall-atoms-tables">View All</a></li>
+						</ol></li>
+					</ol></li>
+					<li class="sg-nav-molecules"><a class="sg-acc-handle">Molecules</a><ol class="sg-acc-panel">
+						<li class="sg-nav-layout"><a class="sg-acc-handle">Layout</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-01-layout-00-left-sidebar/01-molecules-01-layout-00-left-sidebar.html" class="sg-pop  " data-patternpartial="molecules-left-sidebar">Left Sidebar</a></li>
+							<li><a href="patterns/01-molecules-01-layout/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-layout">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-forms"><a class="sg-acc-handle">Forms</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-04-forms-00-control-range/01-molecules-04-forms-00-control-range.html" class="sg-pop  " data-patternpartial="molecules-control-range">Control Range</a></li>
+							<li><a href="patterns/01-molecules-04-forms-01-terms-checkbox/01-molecules-04-forms-01-terms-checkbox.html" class="sg-pop  " data-patternpartial="molecules-terms-checkbox">Terms Checkbox</a></li>
+							<li><a href="patterns/01-molecules-04-forms-02-sort-by-select/01-molecules-04-forms-02-sort-by-select.html" class="sg-pop  " data-patternpartial="molecules-sort-by-select">Sort By Select</a></li>
+							<li><a href="patterns/01-molecules-04-forms-03-bid-adjust-field/01-molecules-04-forms-03-bid-adjust-field.html" class="sg-pop  " data-patternpartial="molecules-bid-adjust-field">Bid Adjust Field</a></li>
+							<li><a href="patterns/01-molecules-04-forms/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-forms">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-navigation"><a class="sg-acc-handle">Navigation</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-05-navigation-00-primary-nav/01-molecules-05-navigation-00-primary-nav.html" class="sg-pop  " data-patternpartial="molecules-primary-nav">Primary Nav</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-01-footer-nav/01-molecules-05-navigation-01-footer-nav.html" class="sg-pop  " data-patternpartial="molecules-footer-nav">Footer Nav</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-02-pagination/01-molecules-05-navigation-02-pagination.html" class="sg-pop  " data-patternpartial="molecules-pagination">Pagination</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-05-footer-sub-nav/01-molecules-05-navigation-05-footer-sub-nav.html" class="sg-pop  " data-patternpartial="molecules-footer-sub-nav">Footer Sub Nav</a></li>
+							<li><a href="patterns/01-molecules-05-navigation-06-primary-subnav/01-molecules-05-navigation-06-primary-subnav.html" class="sg-pop  " data-patternpartial="molecules-primary-subnav">Primary Subnav</a></li>
+							<li><a href="patterns/01-molecules-05-navigation/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-navigation">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-search"><a class="sg-acc-handle">Search</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-06-search-00-sidebar-search/01-molecules-06-search-00-sidebar-search.html" class="sg-pop  " data-patternpartial="molecules-sidebar-search">Sidebar Search</a></li>
+							<li><a href="patterns/01-molecules-06-search-01-search-filters/01-molecules-06-search-01-search-filters.html" class="sg-pop  " data-patternpartial="molecules-search-filters">Search Filters</a></li>
+							<li><a href="patterns/01-molecules-06-search-02-current-search/01-molecules-06-search-02-current-search.html" class="sg-pop  " data-patternpartial="molecules-current-search">Current Search</a></li>
+							<li><a href="patterns/01-molecules-06-search-00-search-field-model/01-molecules-06-search-00-search-field-model.html" class="sg-pop  " data-patternpartial="molecules-search-field-model">Search Field Model</a></li>
+							<li><a href="patterns/01-molecules-06-search-01-search-field-trim/01-molecules-06-search-01-search-field-trim.html" class="sg-pop  " data-patternpartial="molecules-search-field-trim">Search Field Trim</a></li>
+							<li><a href="patterns/01-molecules-06-search-06-search-field-transmission/01-molecules-06-search-06-search-field-transmission.html" class="sg-pop  " data-patternpartial="molecules-search-field-transmission">Search Field Transmission</a></li>
+							<li><a href="patterns/01-molecules-06-search-07-search-field-body-style/01-molecules-06-search-07-search-field-body-style.html" class="sg-pop  " data-patternpartial="molecules-search-field-body-style">Search Field Body Style</a></li>
+							<li><a href="patterns/01-molecules-06-search-08-search-field-engine/01-molecules-06-search-08-search-field-engine.html" class="sg-pop  " data-patternpartial="molecules-search-field-engine">Search Field Engine</a></li>
+							<li><a href="patterns/01-molecules-06-search-09-search-field-exterior-color/01-molecules-06-search-09-search-field-exterior-color.html" class="sg-pop  " data-patternpartial="molecules-search-field-exterior-color">Search Field Exterior Color</a></li>
+							<li><a href="patterns/01-molecules-06-search-05-purchase-search/01-molecules-06-search-05-purchase-search.html" class="sg-pop  " data-patternpartial="molecules-purchase-search">Purchase Search</a></li>
+							<li><a href="patterns/01-molecules-06-search-09-allocation-search/01-molecules-06-search-09-allocation-search.html" class="sg-pop  " data-patternpartial="molecules-allocation-search">Allocation Search</a></li>
+							<li><a href="patterns/01-molecules-06-search/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-search">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-dashboard"><a class="sg-acc-handle">Dashboard</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-07-dashboard-01-quick-search/01-molecules-07-dashboard-01-quick-search.html" class="sg-pop  " data-patternpartial="molecules-quick-search">Quick Search</a></li>
+							<li><a href="patterns/01-molecules-07-dashboard-02-my-activity/01-molecules-07-dashboard-02-my-activity.html" class="sg-pop  " data-patternpartial="molecules-my-activity">My Activity</a></li>
+							<li><a href="patterns/01-molecules-07-dashboard-03-quick-ground/01-molecules-07-dashboard-03-quick-ground.html" class="sg-pop  " data-patternpartial="molecules-quick-ground">Quick Ground</a></li>
+							<li><a href="patterns/01-molecules-07-dashboard-04-grounded-vehicles-pending/01-molecules-07-dashboard-04-grounded-vehicles-pending.html" class="sg-pop  " data-patternpartial="molecules-grounded-vehicles-pending">Grounded Vehicles Pending</a></li>
+							<li><a href="patterns/01-molecules-07-dashboard-05-grounding-dashboard/01-molecules-07-dashboard-05-grounding-dashboard.html" class="sg-pop  " data-patternpartial="molecules-grounding-dashboard">Grounding Dashboard</a></li>
+							<li><a href="patterns/01-molecules-07-dashboard-06-resources-dashboard/01-molecules-07-dashboard-06-resources-dashboard.html" class="sg-pop  " data-patternpartial="molecules-resources-dashboard">Resources Dashboard</a></li>
+							<li><a href="patterns/01-molecules-07-dashboard-07-my-activity-no-activity/01-molecules-07-dashboard-07-my-activity-no-activity.html" class="sg-pop  " data-patternpartial="molecules-my-activity-no-activity">My Activity No Activity</a></li>
+							<li><a href="patterns/01-molecules-07-dashboard/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-dashboard">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-listings"><a class="sg-acc-handle">Listings</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-08-listings-00-listing/01-molecules-08-listings-00-listing.html" class="sg-pop  " data-patternpartial="molecules-listing">Listing</a></li>
+							<li><a href="patterns/01-molecules-08-listings/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-listings">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-vdp"><a class="sg-acc-handle">Vdp</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-09-vdp-00-vdp-top/01-molecules-09-vdp-00-vdp-top.html" class="sg-pop  " data-patternpartial="molecules-vdp-top">Vdp Top</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-01-vdp-listing/01-molecules-09-vdp-01-vdp-listing.html" class="sg-pop  " data-patternpartial="molecules-vdp-listing">Vdp Listing</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-02-vdp-vehicle-specifications/01-molecules-09-vdp-02-vdp-vehicle-specifications.html" class="sg-pop  " data-patternpartial="molecules-vdp-vehicle-specifications">Vdp Vehicle Specifications</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-03-vdp-announcements/01-molecules-09-vdp-03-vdp-announcements.html" class="sg-pop  " data-patternpartial="molecules-vdp-announcements">Vdp Announcements</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-04-vdp-vehicle-history-report/01-molecules-09-vdp-04-vdp-vehicle-history-report.html" class="sg-pop  " data-patternpartial="molecules-vdp-vehicle-history-report">Vdp Vehicle History Report</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-05-vdp-equipment/01-molecules-09-vdp-05-vdp-equipment.html" class="sg-pop  " data-patternpartial="molecules-vdp-equipment">Vdp Equipment</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-06-vdp-condition-information/01-molecules-09-vdp-06-vdp-condition-information.html" class="sg-pop  " data-patternpartial="molecules-vdp-condition-information">Vdp Condition Information</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-07-vdp-damage-summary/01-molecules-09-vdp-07-vdp-damage-summary.html" class="sg-pop  " data-patternpartial="molecules-vdp-damage-summary">Vdp Damage Summary</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-08-vdp-tires-wheels/01-molecules-09-vdp-08-vdp-tires-wheels.html" class="sg-pop  " data-patternpartial="molecules-vdp-tires-wheels">Vdp Tires Wheels</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-09-vdp-additional-services/01-molecules-09-vdp-09-vdp-additional-services.html" class="sg-pop  " data-patternpartial="molecules-vdp-additional-services">Vdp Additional Services</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-10-vdp-slider-modal/01-molecules-09-vdp-10-vdp-slider-modal.html" class="sg-pop  " data-patternpartial="molecules-vdp-slider-modal">Vdp Slider Modal</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-11-vdp-bid-popover/01-molecules-09-vdp-11-vdp-bid-popover.html" class="sg-pop  " data-patternpartial="molecules-vdp-bid-popover">Vdp Bid Popover</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-12-vdp-seller-disclaimer/01-molecules-09-vdp-12-vdp-seller-disclaimer.html" class="sg-pop  " data-patternpartial="molecules-vdp-seller-disclaimer">Vdp Seller Disclaimer</a></li>
+							<li><a href="patterns/01-molecules-09-vdp-13-vdp-build-data/01-molecules-09-vdp-13-vdp-build-data.html" class="sg-pop  " data-patternpartial="molecules-vdp-build-data">Vdp Build Data</a></li>
+							<li><a href="patterns/01-molecules-09-vdp/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-vdp">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-other"><a class="sg-acc-handle">Other</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-10-other-00-terms-block/01-molecules-10-other-00-terms-block.html" class="sg-pop  " data-patternpartial="molecules-terms-block">Terms Block</a></li>
+							<li><a href="patterns/01-molecules-10-other-01-notifications-popover/01-molecules-10-other-01-notifications-popover.html" class="sg-pop  " data-patternpartial="molecules-notifications-popover">Notifications Popover</a></li>
+							<li><a href="patterns/01-molecules-10-other-02-terms-modal/01-molecules-10-other-02-terms-modal.html" class="sg-pop  " data-patternpartial="molecules-terms-modal">Terms Modal</a></li>
+							<li><a href="patterns/01-molecules-10-other-03-add-location-modal/01-molecules-10-other-03-add-location-modal.html" class="sg-pop  " data-patternpartial="molecules-add-location-modal">Add Location Modal</a></li>
+							<li><a href="patterns/01-molecules-10-other-04-search-name-popover/01-molecules-10-other-04-search-name-popover.html" class="sg-pop  " data-patternpartial="molecules-search-name-popover">Search Name Popover</a></li>
+							<li><a href="patterns/01-molecules-10-other/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-other">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-grounding"><a class="sg-acc-handle">Grounding</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/01-molecules-11-grounding-00-sidebar-grounding/01-molecules-11-grounding-00-sidebar-grounding.html" class="sg-pop  " data-patternpartial="molecules-sidebar-grounding">Sidebar Grounding</a></li>
+							<li><a href="patterns/01-molecules-11-grounding/index.html" class="sg-pop  " data-patternpartial="viewall-molecules-grounding">View All</a></li>
+						</ol></li>
+					</ol></li>
+					<li class="sg-nav-organisms"><a class="sg-acc-handle">Organisms</a><ol class="sg-acc-panel">
+						<li class="sg-nav-global"><a class="sg-acc-handle">Global</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/02-organisms-00-global-00-header/02-organisms-00-global-00-header.html" class="sg-pop  " data-patternpartial="organisms-header">Header</a></li>
+							<li><a href="patterns/02-organisms-00-global-01-footer/02-organisms-00-global-01-footer.html" class="sg-pop  " data-patternpartial="organisms-footer">Footer</a></li>
+							<li><a href="patterns/02-organisms-00-global-02-header-login/02-organisms-00-global-02-header-login.html" class="sg-pop  " data-patternpartial="organisms-header-login">Header Login</a></li>
+							<li><a href="patterns/02-organisms-00-global-03-footer-login/02-organisms-00-global-03-footer-login.html" class="sg-pop  " data-patternpartial="organisms-footer-login">Footer Login</a></li>
+							<li><a href="patterns/02-organisms-00-global/index.html" class="sg-pop  " data-patternpartial="viewall-organisms-global">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-listings"><a class="sg-acc-handle">Listings</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/02-organisms-01-listings-00-srp-listings/02-organisms-01-listings-00-srp-listings.html" class="sg-pop  " data-patternpartial="organisms-srp-listings">Srp Listings</a></li>
+							<li><a href="patterns/02-organisms-01-listings-01-current-bids-listings/02-organisms-01-listings-01-current-bids-listings.html" class="sg-pop  " data-patternpartial="organisms-current-bids-listings">Current Bids Listings</a></li>
+							<li><a href="patterns/02-organisms-01-listings-02-watch-list-listings/02-organisms-01-listings-02-watch-list-listings.html" class="sg-pop  " data-patternpartial="organisms-watch-list-listings">Watch List Listings</a></li>
+							<li><a href="patterns/02-organisms-01-listings-03-saved-search-listings/02-organisms-01-listings-03-saved-search-listings.html" class="sg-pop  " data-patternpartial="organisms-saved-search-listings">Saved Search Listings</a></li>
+							<li><a href="patterns/02-organisms-01-listings/index.html" class="sg-pop  " data-patternpartial="viewall-organisms-listings">View All</a></li>
+						</ol></li>
+						<li><a href="patterns/02-organisms-00-global-00-search-pagination/02-organisms-00-global-00-search-pagination.html" class="sg-pop " data-patternpartial="organisms-search-pagination">Search Pagination</a></li>
+						<li><a href="patterns/02-organisms-01-article-01-bid-buy-payment-options/02-organisms-01-article-01-bid-buy-payment-options.html" class="sg-pop " data-patternpartial="organisms-bid-buy-payment-options">Bid Buy Payment Options</a></li>
+						<li><a href="patterns/02-organisms-01-listings-02-bid-buy-delivery-options/02-organisms-01-listings-02-bid-buy-delivery-options.html" class="sg-pop " data-patternpartial="organisms-bid-buy-delivery-options">Bid Buy Delivery Options</a></li>
+						<li><a href="patterns/02-organisms-02-comments-03-bid-buy-agree-group/02-organisms-02-comments-03-bid-buy-agree-group.html" class="sg-pop " data-patternpartial="organisms-bid-buy-agree-group">Bid Buy Agree Group</a></li>
+						<li><a href="patterns/02-organisms-03-sections-04-bid-buy-listing/02-organisms-03-sections-04-bid-buy-listing.html" class="sg-pop " data-patternpartial="organisms-bid-buy-listing">Bid Buy Listing</a></li>
+					</ol></li>
+					<li class="sg-nav-templates"><a class="sg-acc-handle">Templates</a><ol class="sg-acc-panel">
+						<li class="sg-nav-dashboard"><a class="sg-acc-handle">Dashboard</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/03-templates-00-dashboard-00-dashboard/03-templates-00-dashboard-00-dashboard.html" class="sg-pop  " data-patternpartial="templates-dashboard">Dashboard</a></li>
+							<li><a href="patterns/03-templates-00-dashboard-01-dashboard-no-activity/03-templates-00-dashboard-01-dashboard-no-activity.html" class="sg-pop  " data-patternpartial="templates-dashboard-no-activity">Dashboard No Activity</a></li>
+							<li><a href="patterns/03-templates-00-dashboard/index.html" class="sg-pop  " data-patternpartial="viewall-templates-dashboard">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-vehicle management"><a class="sg-acc-handle">Vehicle Management</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/03-templates-01-vehicle-management-01-advanced-search/03-templates-01-vehicle-management-01-advanced-search.html" class="sg-pop  " data-patternpartial="templates-advanced-search">Advanced Search</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-03-srp/03-templates-01-vehicle-management-03-srp.html" class="sg-pop  " data-patternpartial="templates-srp">Srp</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-06-vdp/03-templates-01-vehicle-management-06-vdp.html" class="sg-pop  " data-patternpartial="templates-vdp">Vdp</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-09-saved-searches/03-templates-01-vehicle-management-09-saved-searches.html" class="sg-pop  " data-patternpartial="templates-saved-searches">Saved Searches</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-11-watch-list/03-templates-01-vehicle-management-11-watch-list.html" class="sg-pop  " data-patternpartial="templates-watch-list">Watch List</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-14-purchase-history/03-templates-01-vehicle-management-14-purchase-history.html" class="sg-pop  " data-patternpartial="templates-purchase-history">Purchase History</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-16-vehicle-allocation/03-templates-01-vehicle-management-16-vehicle-allocation.html" class="sg-pop  " data-patternpartial="templates-vehicle-allocation">Vehicle Allocation</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-19-direct-sales/03-templates-01-vehicle-management-19-direct-sales.html" class="sg-pop  " data-patternpartial="templates-direct-sales">Direct Sales</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-21-vehicle-packs/03-templates-01-vehicle-management-21-vehicle-packs.html" class="sg-pop  " data-patternpartial="templates-vehicle-packs">Vehicle Packs</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-23-worklist/03-templates-01-vehicle-management-23-worklist.html" class="sg-pop  " data-patternpartial="templates-worklist">Worklist</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-29-buy-it-now/03-templates-01-vehicle-management-29-buy-it-now.html" class="sg-pop  " data-patternpartial="templates-buy-it-now">Buy It Now</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-30-initial-bid/03-templates-01-vehicle-management-30-initial-bid.html" class="sg-pop  " data-patternpartial="templates-initial-bid">Initial Bid</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-31-retail-view/03-templates-01-vehicle-management-31-retail-view.html" class="sg-pop  " data-patternpartial="templates-retail-view">Retail View</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management-32-vdp-print/03-templates-01-vehicle-management-32-vdp-print.html" class="sg-pop  " data-patternpartial="templates-vdp-print">Vdp Print</a></li>
+							<li><a href="patterns/03-templates-01-vehicle-management/index.html" class="sg-pop  " data-patternpartial="viewall-templates-vehicle-management">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-my account"><a class="sg-acc-handle">My Account</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/03-templates-04-my-account-00-account-settings/03-templates-04-my-account-00-account-settings.html" class="sg-pop  " data-patternpartial="templates-account-settings">Account Settings</a></li>
+							<li><a href="patterns/03-templates-04-my-account-01-my-profile/03-templates-04-my-account-01-my-profile.html" class="sg-pop  " data-patternpartial="templates-my-profile">My Profile</a></li>
+							<li><a href="patterns/03-templates-04-my-account-02-payment-information/03-templates-04-my-account-02-payment-information.html" class="sg-pop  " data-patternpartial="templates-payment-information">Payment Information</a></li>
+							<li><a href="patterns/03-templates-04-my-account-03-add-payment-information/03-templates-04-my-account-03-add-payment-information.html" class="sg-pop  " data-patternpartial="templates-add-payment-information">Add Payment Information</a></li>
+							<li><a href="patterns/03-templates-04-my-account-06-bid-history/03-templates-04-my-account-06-bid-history.html" class="sg-pop  " data-patternpartial="templates-bid-history">Bid History</a></li>
+							<li><a href="patterns/03-templates-04-my-account/index.html" class="sg-pop  " data-patternpartial="viewall-templates-my-account">View All</a></li>
+						</ol></li>
+						<li><a href="patterns/03-templates-04-my-account-05-contact-us/03-templates-04-my-account-05-contact-us.html" class="sg-pop " data-patternpartial="templates-contact-us">Contact Us</a></li>
+						<li><a href="patterns/03-templates-04-my-account-06-news/03-templates-04-my-account-06-news.html" class="sg-pop " data-patternpartial="templates-news">News</a></li>
+						<li><a href="patterns/03-templates-04-my-account-07-news-single/03-templates-04-my-account-07-news-single.html" class="sg-pop " data-patternpartial="templates-news-single">News Single</a></li>
+						<li><a href="patterns/03-templates-04-my-account-08-login/03-templates-04-my-account-08-login.html" class="sg-pop " data-patternpartial="templates-login">Login</a></li>
+						<li><a href="patterns/03-templates-04-my-account-09-forgot-password/03-templates-04-my-account-09-forgot-password.html" class="sg-pop " data-patternpartial="templates-forgot-password">Forgot Password</a></li>
+					</ol></li>
+					<li class="sg-nav-pages"><a class="sg-acc-handle">Pages</a><ol class="sg-acc-panel">
+						<li class="sg-nav-dashboard"><a class="sg-acc-handle">Dashboard</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/04-pages-00-dashboard-00-dashboard/04-pages-00-dashboard-00-dashboard.html" class="sg-pop  " data-patternpartial="pages-dashboard">Dashboard</a></li>
+							<li><a href="patterns/04-pages-00-dashboard-01-dashboard-no-activity/04-pages-00-dashboard-01-dashboard-no-activity.html" class="sg-pop  " data-patternpartial="pages-dashboard-no-activity">Dashboard No Activity</a></li>
+							<li><a href="patterns/04-pages-00-dashboard/index.html" class="sg-pop  " data-patternpartial="viewall-pages-dashboard">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-vehicle management"><a class="sg-acc-handle">Vehicle Management</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/04-pages-01-vehicle-management-01-advanced-search/04-pages-01-vehicle-management-01-advanced-search.html" class="sg-pop  " data-patternpartial="pages-advanced-search">Advanced Search</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-03-srp/04-pages-01-vehicle-management-03-srp.html" class="sg-pop  " data-patternpartial="pages-srp">Srp</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-06-vdp/04-pages-01-vehicle-management-06-vdp.html" class="sg-pop  " data-patternpartial="pages-vdp">Vdp</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-09-saved-searches/04-pages-01-vehicle-management-09-saved-searches.html" class="sg-pop  " data-patternpartial="pages-saved-searches">Saved Searches</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-11-watch-list/04-pages-01-vehicle-management-11-watch-list.html" class="sg-pop  " data-patternpartial="pages-watch-list">Watch List</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-13-purchase-history/04-pages-01-vehicle-management-13-purchase-history.html" class="sg-pop  " data-patternpartial="pages-purchase-history">Purchase History</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-16-vehicle-allocation/04-pages-01-vehicle-management-16-vehicle-allocation.html" class="sg-pop  " data-patternpartial="pages-vehicle-allocation">Vehicle Allocation</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-19-direct-sales/04-pages-01-vehicle-management-19-direct-sales.html" class="sg-pop  " data-patternpartial="pages-direct-sales">Direct Sales</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-21-vehicle-packs/04-pages-01-vehicle-management-21-vehicle-packs.html" class="sg-pop  " data-patternpartial="pages-vehicle-packs">Vehicle Packs</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-23-worklist/04-pages-01-vehicle-management-23-worklist.html" class="sg-pop  " data-patternpartial="pages-worklist">Worklist</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-29-buy-it-now/04-pages-01-vehicle-management-29-buy-it-now.html" class="sg-pop  " data-patternpartial="pages-buy-it-now">Buy It Now</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-30-initial-bid/04-pages-01-vehicle-management-30-initial-bid.html" class="sg-pop  " data-patternpartial="pages-initial-bid">Initial Bid</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-31-retail-view/04-pages-01-vehicle-management-31-retail-view.html" class="sg-pop  " data-patternpartial="pages-retail-view">Retail View</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management-32-vdp-print/04-pages-01-vehicle-management-32-vdp-print.html" class="sg-pop  " data-patternpartial="pages-vdp-print">Vdp Print</a></li>
+							<li><a href="patterns/04-pages-01-vehicle-management/index.html" class="sg-pop  " data-patternpartial="viewall-pages-vehicle-management">View All</a></li>
+						</ol></li>
+						<li class="sg-nav-my account"><a class="sg-acc-handle">My Account</a><ol class="sg-acc-panel sg-sub-nav">
+							<li><a href="patterns/04-pages-04-my-account-00-account-settings/04-pages-04-my-account-00-account-settings.html" class="sg-pop  " data-patternpartial="pages-account-settings">Account Settings</a></li>
+							<li><a href="patterns/04-pages-04-my-account-01-my-profile/04-pages-04-my-account-01-my-profile.html" class="sg-pop  " data-patternpartial="pages-my-profile">My Profile</a></li>
+							<li><a href="patterns/04-pages-04-my-account-02-payment-information/04-pages-04-my-account-02-payment-information.html" class="sg-pop  " data-patternpartial="pages-payment-information">Payment Information</a></li>
+							<li><a href="patterns/04-pages-04-my-account-03-add-payment-information/04-pages-04-my-account-03-add-payment-information.html" class="sg-pop  " data-patternpartial="pages-add-payment-information">Add Payment Information</a></li>
+							<li><a href="patterns/04-pages-04-my-account-06-bid-history/04-pages-04-my-account-06-bid-history.html" class="sg-pop  " data-patternpartial="pages-bid-history">Bid History</a></li>
+							<li><a href="patterns/04-pages-04-my-account/index.html" class="sg-pop  " data-patternpartial="viewall-pages-my-account">View All</a></li>
+						</ol></li>
+						<li><a href="patterns/04-pages-04-my-account-05-contact-us/04-pages-04-my-account-05-contact-us.html" class="sg-pop " data-patternpartial="pages-contact-us">Contact Us</a></li>
+						<li><a href="patterns/04-pages-04-my-account-06-news/04-pages-04-my-account-06-news.html" class="sg-pop " data-patternpartial="pages-news">News</a></li>
+						<li><a href="patterns/04-pages-04-my-account-07-news-single/04-pages-04-my-account-07-news-single.html" class="sg-pop " data-patternpartial="pages-news-single">News Single</a></li>
+						<li><a href="patterns/04-pages-04-my-account-08-login/04-pages-04-my-account-08-login.html" class="sg-pop " data-patternpartial="pages-login">Login</a></li>
+						<li><a href="patterns/04-pages-04-my-account-09-forgot-password/04-pages-04-my-account-09-forgot-password.html" class="sg-pop " data-patternpartial="pages-forgot-password">Forgot Password</a></li>
+					</ol></li>
+				<li><a href="styleguide/html/styleguide.html" class="sg-pop" data-patternpartial="all">All</a></li>
+			</ol>
+			<!--sg-controls-->
+			<div class="sg-controls" id="sg-controls">
+					<div class="sg-control-content">
+						<ul class="sg-control">
+							<li class="sg-size">
+								<div class="sg-current-size">
+									<form id="sg-form">
+										Size <input type="text" class="sg-input sg-size-px" value="---">px / 
+										<input type="text" class="sg-input sg-size-em" value="---">em
+									</form><!--end #sg-form-->
+								</div><!--end #sg-current-size-->
+								<ul class="sg-acc-panel sg-size-options">
+									<li><a href="#" id="sg-size-s">S</a></li>
+									<li><a href="#" id="sg-size-m">M</a></li>
+									<li><a href="#" id="sg-size-l">L</a></li>
+									<li><a href="#" id="sg-size-full">Full</a></li>
+									<li><a href="#" id="sg-size-random">Random</a></li>
+									<li><a href="#" class="mode-link" id="sg-size-disco">Disco</a></li>
+									
+								</ul>
+							</li>
+							<li class="sg-mqs">
+								<a href="#" class="mode-link sg-acc-handle" id="sg-size-mq" title="Media queries in stylesheet">MQ</a>
+								<ul class="sg-acc-panel sg-left" id="sg-mq">
+										<li><a href="#">10px</a></li>
+										<li><a href="#">1199px</a></li>
+										<li><a href="#">1200px</a></li>
+										<li><a href="#">120px</a></li>
+										<li><a href="#">160px</a></li>
+										<li><a href="#">18em</a></li>
+										<li><a href="#">200px</a></li>
+										<li><a href="#">20em</a></li>
+										<li><a href="#">24em</a></li>
+										<li><a href="#">276px</a></li>
+										<li><a href="#">30em</a></li>
+										<li><a href="#">50em</a></li>
+										<li><a href="#">6.1em</a></li>
+										<li><a href="#">60em</a></li>
+										<li><a href="#">7.25em</a></li>
+										<li><a href="#">70em</a></li>
+										<li><a href="#">72em</a></li>
+										<li><a href="#">767px</a></li>
+										<li><a href="#">768px</a></li>
+										<li><a href="#">991px</a></li>
+										<li><a href="#">992px</a></li>
+								</ul>
+							</li>
+							<li class="sg-find">
+								<a href="#" class="sg-acc-handle sg-control-trigger sg-icon sg-icon-search" id="sg-f-toggle" title="Search Patterns"><span class="is-vishidden">Search Patterns</span></a>
+								<ul class="sg-view sg-acc-panel sg-right sg-checklist" id="sg-find" style="margin-top: 33px;">
+										<li><input class="typeahead" id="typeahead" type="text" placeholder="search for a pattern..."></li>
+								</ul>
+							</li>
+							<li class="sg-view">
+								<a href="#" class="sg-acc-handle sg-control-trigger sg-icon sg-icon-eye" id="sg-t-toggle" title="View"><span class="is-vishidden">View</span></a>
+								<ul class="sg-view sg-acc-panel sg-right sg-checklist" id="sg-view">
+									<li><a href="#" class="sg-checkbox" id="sg-t-annotations">Annotations</a></li>
+									<li><a href="#" class="sg-checkbox" id="sg-t-code">Code</a></li>
+									<li><a href="#" target="_blank" id="sg-raw" class="sg-icon-link">Open in new window</a></li>
+								</ul>
+							</li>
+							<li class="sg-tools">
+								<a href="#" class="sg-acc-handle sg-tools-toggle sg-icon sg-icon-cog" id="sg-tools-toggle" title="Tools"><span class="is-vishidden">Tools</span></a>
+								<ul class="sg-acc-panel sg-right sg-checklist">
+									<li><a href="#" id="navSyncButton" class="sg-checkbox sg-page-follow" data-state="off">Page Follow</a></li>
+									<li><a href="#" id="contentSyncButton" class="sg-checkbox sg-auto-reload" data-state="off">Auto-reload</a></li>
+									<li><a href="http://pattern-lab.info/docs/advanced-keyboard-shortcuts.html" class="sg-icon-keyboard" target="_blank">Keyboard Shortcuts</a>
+									<li><a href="http://pattern-lab.info/docs/" class="sg-icon-file" target="_blank">Pattern Lab Docs</a>
+								</ul>
+							</li>
+						</ul>
+						
+					</div>
+			</div>
+			<!--End #sg-controls-->		</div>
+	</header>
+	<!--End Style Guide Header-->
+	
+	<!-- Iframe -->
+	<div id="sg-vp-wrap">
+		<div id="sg-cover"></div>
+		<div id="sg-gen-container">
+			<iframe id="sg-viewport" sandbox="allow-same-origin allow-scripts"></iframe>
+			<div id="sg-rightpull-container">
+				<div id="sg-rightpull"></div>
+			</div>
+		</div>
+	</div>
+	<!--end iFrame-->
+	
+	<!-- the template for the code view slider -->
+	<script type="text/html" id="code-template">
+		<div id="sg-code-close" class="sg-view-close">
+			<a href="#" id="sg-code-close-btn" class="sg-view-close-btn">Close</a>
+		</div>
+		<div id="sg-code-loader">
+			<div class="spinner"></div>
+			Loading pattern...
+		</div>
+		<div id="sg-code-patternstate" style="display: none;">
+			<p>
+				The state of the <span id="sg-code-patternstate-patternname" class="sg-code-patternname"></span> pattern is: <span id="sg-code-patternstate-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-lineage" style="display: none;">
+			<p>
+				The <span id="sg-code-lineager-patternname" class="sg-code-patternname"></span> pattern contains the following patterns: <span id="sg-code-lineage-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-lineager" style="display: none;">
+			<p>
+				The <span id="sg-code-lineager-patternname" class="sg-code-patternname"></span> pattern is included in the following patterns: <span id="sg-code-lineager-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-markup">
+			<ul id="sg-code-tabs">
+				<li id="sg-code-title-html" class="sg-code-title-active">HTML</li>
+				<li id="sg-code-title-mustache">Mustache</li>
+				<li id="sg-code-title-css" style="display: none;">CSS</li>
+			</ul>
+			<div class="clear">
+				<pre><code id="sg-code-fill"></code></pre>
+			</div>
+		</div>
+	</script>
+	
+	<!-- the template for the annotations viewer slider -->
+	<script type="text/html" id="annotations-template">
+		<div id="sg-annotation-close" class="sg-view-close">
+			<a href="#" id="sg-annotation-close-btn" class="sg-view-close-btn">Close</a>
+		</div>
+		<div id="sg-comments-container"></div>
+	</script>
+	
+	<!-- Included JavaScript that makes everything work -->
+	<script src="styleguide/js/vendor/prism.js?1430333893"></script>
+	<script src="styleguide/js/vendor/jwerty.js?1430333893"></script>
+	<script src="styleguide/js/vendor/classlist-polyfill.js?1430333893"></script>
+	<script src="styleguide/js/vendor/typeahead.bundle.min.js?1430333893"></script>
+	<script src="styleguide/js/data-saver.js?1430333893"></script>
+	<script>
+	  var ishMinimum           = 240;
+	  var ishMaximum           = 2600;
+		var qrCodeGeneratorOn    = false;
+		var ipAddress            = "10.226.90.33";
+		var xipHostname          = "http://patternlab.*.xip.io";
+	</script>	<script>
+		var patternPaths = {"atoms":{"colors":"00-atoms-01-global-00-colors","fonts":"00-atoms-01-global-01-fonts","headings":"00-atoms-02-text-00-headings","listing-elements":"00-atoms-02-text-03-listing-elements","hr":"00-atoms-02-text-06-hr","striped-list":"00-atoms-02-text-07-striped-list","logo":"00-atoms-04-images-00-logo","text-fields":"00-atoms-05-forms-00-text-fields","select-menu":"00-atoms-05-forms-01-select-menu","checkbox":"00-atoms-05-forms-02-checkbox","radio-buttons":"00-atoms-05-forms-03-radio-buttons","date-picker":"00-atoms-05-forms-04-date-picker","buttons":"00-atoms-06-buttons-00-buttons","alert":"00-atoms-07-feedback-00-alert","tables":"00-atoms-08-tables-00-tables","small-tables":"00-atoms-08-tables-03-small-tables","chart":"00-atoms-08-tables-05-chart"},"molecules":{"left-sidebar":"01-molecules-01-layout-00-left-sidebar","control-range":"01-molecules-04-forms-00-control-range","terms-checkbox":"01-molecules-04-forms-01-terms-checkbox","sort-by-select":"01-molecules-04-forms-02-sort-by-select","bid-adjust-field":"01-molecules-04-forms-03-bid-adjust-field","primary-nav":"01-molecules-05-navigation-00-primary-nav","footer-nav":"01-molecules-05-navigation-01-footer-nav","pagination":"01-molecules-05-navigation-02-pagination","footer-sub-nav":"01-molecules-05-navigation-05-footer-sub-nav","primary-subnav":"01-molecules-05-navigation-06-primary-subnav","sidebar-search":"01-molecules-06-search-00-sidebar-search","search-filters":"01-molecules-06-search-01-search-filters","current-search":"01-molecules-06-search-02-current-search","search-field-model":"01-molecules-06-search-00-search-field-model","search-field-trim":"01-molecules-06-search-01-search-field-trim","search-field-transmission":"01-molecules-06-search-06-search-field-transmission","search-field-body-style":"01-molecules-06-search-07-search-field-body-style","search-field-engine":"01-molecules-06-search-08-search-field-engine","search-field-exterior-color":"01-molecules-06-search-09-search-field-exterior-color","purchase-search":"01-molecules-06-search-05-purchase-search","allocation-search":"01-molecules-06-search-09-allocation-search","quick-search":"01-molecules-07-dashboard-01-quick-search","my-activity":"01-molecules-07-dashboard-02-my-activity","quick-ground":"01-molecules-07-dashboard-03-quick-ground","grounded-vehicles-pending":"01-molecules-07-dashboard-04-grounded-vehicles-pending","grounding-dashboard":"01-molecules-07-dashboard-05-grounding-dashboard","resources-dashboard":"01-molecules-07-dashboard-06-resources-dashboard","my-activity-no-activity":"01-molecules-07-dashboard-07-my-activity-no-activity","listing":"01-molecules-08-listings-00-listing","vdp-top":"01-molecules-09-vdp-00-vdp-top","vdp-listing":"01-molecules-09-vdp-01-vdp-listing","vdp-vehicle-specifications":"01-molecules-09-vdp-02-vdp-vehicle-specifications","vdp-announcements":"01-molecules-09-vdp-03-vdp-announcements","vdp-vehicle-history-report":"01-molecules-09-vdp-04-vdp-vehicle-history-report","vdp-equipment":"01-molecules-09-vdp-05-vdp-equipment","vdp-condition-information":"01-molecules-09-vdp-06-vdp-condition-information","vdp-damage-summary":"01-molecules-09-vdp-07-vdp-damage-summary","vdp-tires-wheels":"01-molecules-09-vdp-08-vdp-tires-wheels","vdp-additional-services":"01-molecules-09-vdp-09-vdp-additional-services","vdp-slider-modal":"01-molecules-09-vdp-10-vdp-slider-modal","vdp-bid-popover":"01-molecules-09-vdp-11-vdp-bid-popover","vdp-seller-disclaimer":"01-molecules-09-vdp-12-vdp-seller-disclaimer","vdp-build-data":"01-molecules-09-vdp-13-vdp-build-data","terms-block":"01-molecules-10-other-00-terms-block","notifications-popover":"01-molecules-10-other-01-notifications-popover","terms-modal":"01-molecules-10-other-02-terms-modal","add-location-modal":"01-molecules-10-other-03-add-location-modal","search-name-popover":"01-molecules-10-other-04-search-name-popover","sidebar-grounding":"01-molecules-11-grounding-00-sidebar-grounding"},"organisms":{"header":"02-organisms-00-global-00-header","footer":"02-organisms-00-global-01-footer","header-login":"02-organisms-00-global-02-header-login","footer-login":"02-organisms-00-global-03-footer-login","search-pagination":"02-organisms-00-global-00-search-pagination","bid-buy-payment-options":"02-organisms-01-article-01-bid-buy-payment-options","srp-listings":"02-organisms-01-listings-00-srp-listings","current-bids-listings":"02-organisms-01-listings-01-current-bids-listings","watch-list-listings":"02-organisms-01-listings-02-watch-list-listings","saved-search-listings":"02-organisms-01-listings-03-saved-search-listings","bid-buy-delivery-options":"02-organisms-01-listings-02-bid-buy-delivery-options","bid-buy-agree-group":"02-organisms-02-comments-03-bid-buy-agree-group","bid-buy-listing":"02-organisms-03-sections-04-bid-buy-listing"},"templates":{"dashboard":"03-templates-00-dashboard-00-dashboard","dashboard-no-activity":"03-templates-00-dashboard-01-dashboard-no-activity","advanced-search":"03-templates-01-vehicle-management-01-advanced-search","srp":"03-templates-01-vehicle-management-03-srp","vdp":"03-templates-01-vehicle-management-06-vdp","saved-searches":"03-templates-01-vehicle-management-09-saved-searches","watch-list":"03-templates-01-vehicle-management-11-watch-list","purchase-history":"03-templates-01-vehicle-management-14-purchase-history","vehicle-allocation":"03-templates-01-vehicle-management-16-vehicle-allocation","direct-sales":"03-templates-01-vehicle-management-19-direct-sales","vehicle-packs":"03-templates-01-vehicle-management-21-vehicle-packs","worklist":"03-templates-01-vehicle-management-23-worklist","buy-it-now":"03-templates-01-vehicle-management-29-buy-it-now","initial-bid":"03-templates-01-vehicle-management-30-initial-bid","retail-view":"03-templates-01-vehicle-management-31-retail-view","vdp-print":"03-templates-01-vehicle-management-32-vdp-print","account-settings":"03-templates-04-my-account-00-account-settings","my-profile":"03-templates-04-my-account-01-my-profile","payment-information":"03-templates-04-my-account-02-payment-information","add-payment-information":"03-templates-04-my-account-03-add-payment-information","bid-history":"03-templates-04-my-account-06-bid-history","contact-us":"03-templates-04-my-account-05-contact-us","news":"03-templates-04-my-account-06-news","news-single":"03-templates-04-my-account-07-news-single","login":"03-templates-04-my-account-08-login","forgot-password":"03-templates-04-my-account-09-forgot-password"},"pages":{"dashboard":"04-pages-00-dashboard-00-dashboard","dashboard-no-activity":"04-pages-00-dashboard-01-dashboard-no-activity","advanced-search":"04-pages-01-vehicle-management-01-advanced-search","srp":"04-pages-01-vehicle-management-03-srp","vdp":"04-pages-01-vehicle-management-06-vdp","saved-searches":"04-pages-01-vehicle-management-09-saved-searches","watch-list":"04-pages-01-vehicle-management-11-watch-list","purchase-history":"04-pages-01-vehicle-management-13-purchase-history","vehicle-allocation":"04-pages-01-vehicle-management-16-vehicle-allocation","direct-sales":"04-pages-01-vehicle-management-19-direct-sales","vehicle-packs":"04-pages-01-vehicle-management-21-vehicle-packs","worklist":"04-pages-01-vehicle-management-23-worklist","buy-it-now":"04-pages-01-vehicle-management-29-buy-it-now","initial-bid":"04-pages-01-vehicle-management-30-initial-bid","retail-view":"04-pages-01-vehicle-management-31-retail-view","vdp-print":"04-pages-01-vehicle-management-32-vdp-print","account-settings":"04-pages-04-my-account-00-account-settings","my-profile":"04-pages-04-my-account-01-my-profile","payment-information":"04-pages-04-my-account-02-payment-information","add-payment-information":"04-pages-04-my-account-03-add-payment-information","bid-history":"04-pages-04-my-account-06-bid-history","contact-us":"04-pages-04-my-account-05-contact-us","news":"04-pages-04-my-account-06-news","news-single":"04-pages-04-my-account-07-news-single","login":"04-pages-04-my-account-08-login","forgot-password":"04-pages-04-my-account-09-forgot-password"}}
+	</script>	<script>
+		var viewAllPaths = {"atoms":{"global":"00-atoms-01-global","text":"00-atoms-02-text","images":"00-atoms-04-images","forms":"00-atoms-05-forms","buttons":"00-atoms-06-buttons","feedback":"00-atoms-07-feedback","tables":"00-atoms-08-tables"},"molecules":{"layout":"01-molecules-01-layout","forms":"01-molecules-04-forms","navigation":"01-molecules-05-navigation","search":"01-molecules-06-search","dashboard":"01-molecules-07-dashboard","listings":"01-molecules-08-listings","vdp":"01-molecules-09-vdp","other":"01-molecules-10-other","grounding":"01-molecules-11-grounding"},"organisms":{"global":"02-organisms-00-global","listings":"02-organisms-01-listings"},"templates":{"dashboard":"03-templates-00-dashboard","vehicle-management":"03-templates-01-vehicle-management","my-account":"03-templates-04-my-account"},"pages":{"dashboard":"04-pages-00-dashboard","vehicle-management":"04-pages-01-vehicle-management","my-account":"04-pages-04-my-account"}}
+	</script>	<script src="styleguide/js/url-handler.js?1430333893"></script>
+	<script src="styleguide/js/qrcode-generator.js?1430333893"></script>
+	<script src="styleguide/js/styleguide.js?1430333893"></script>
+	<script src="styleguide/js/pattern-finder.js?1430333893"></script>
+	<script src="styleguide/js/annotations-viewer.js?1430333893"></script>
+	<script src="styleguide/js/code-viewer.js?1430333893"></script>
+	<script>
+		
+		var autoReloadNav  = true;
+		var autoReloadPort = 8002;
+		var pageFollowNav  = true;
+		var pageFollowPort = 8003;
+		
+	</script>
+	<script src="styleguide/js/synclisteners.js?1430333893"></script>
 </body>
 </html>

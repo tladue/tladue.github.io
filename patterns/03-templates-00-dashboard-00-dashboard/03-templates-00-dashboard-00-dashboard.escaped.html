@@ -1,0 +1,646 @@
+&lt;section class=&quot;container&quot; role=&quot;main&quot;&gt;
+	&lt;form id=&quot;quick-search&quot; class=&quot;quick-search&quot;&gt;
+		
+		&lt;span class=&quot;heading-info xs-hidden&quot; data-set=&quot;heading-info&quot;&gt;
+			&lt;span class=&quot;rover&quot;&gt;Vehicles Available &lt;strong&gt;100&lt;/strong&gt;&lt;/span&gt;
+		&lt;/span&gt;
+		&lt;h2 class=&quot;large&quot;&gt;Quick Vehicle Search&lt;/h2&gt;
+		&lt;span class=&quot;heading-info xs-visible&quot; data-set=&quot;heading-info&quot;&gt;&lt;/span&gt;
+
+		&lt;div class=&quot;search-criteria xs-visible&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;
+				Make
+				&lt;span class=&quot;filter&quot;&gt;Nissan&lt;/span&gt;
+			&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;
+				Model
+				&lt;span class=&quot;filter&quot;&gt;5 Series&lt;/span&gt;
+			&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;Year&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;Mileage&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;Price Range&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;form-group select col-sm-3 col-md-2&quot; data-xs-sheet=&quot;make-sheet&quot;&gt;
+			    &lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;X&lt;/a&gt;
+			    
+			    &lt;label class=&quot;control-label&quot; for=&quot;qs-make&quot;&gt;Make&lt;/label&gt;
+			    &lt;select class=&quot;form-control&quot; id=&quot;qs-make&quot;&gt;
+			        &lt;option&gt;Nissan&lt;/option&gt;
+			        &lt;option&gt;Infiniti&lt;/option&gt;
+			        
+			    &lt;/select&gt;
+
+			    &lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;Done&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;form-group select col-sm-3 col-md-2&quot; data-xs-sheet=&quot;model-sheet&quot;&gt;
+			    &lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;X&lt;/a&gt;
+
+			    &lt;label class=&quot;control-label&quot; for=&quot;qs-model&quot;&gt;Model&lt;/label&gt;
+			    &lt;select class=&quot;form-control&quot; id=&quot;qs-model&quot;&gt;
+			        &lt;option&gt;Option One&lt;/option&gt;
+			        &lt;option&gt;Option Two&lt;/option&gt;
+			        &lt;option&gt;Option Three&lt;/option&gt;
+			    &lt;/select&gt;
+
+			    &lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;Done&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;form-group select col-sm-6 col-md-4&quot; data-xs-sheet=&quot;year-sheet&quot;&gt;
+			    &lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;X&lt;/a&gt;
+
+			    &lt;label&gt;Year&lt;/label&gt;
+			    &lt;div class=&quot;control-range&quot;&gt;
+				    
+				    &lt;div class=&quot;range-group&quot;&gt;
+					    &lt;select class=&quot;form-control&quot; id=&quot;qs-year-start&quot;&gt;
+					        &lt;option&gt;2012&lt;/option&gt;
+					        &lt;option&gt;2013&lt;/option&gt;
+					        &lt;option&gt;2014&lt;/option&gt;
+					    &lt;/select&gt;
+					    &lt;label class=&quot;visually-hidden&quot; for=&quot;qs-year-start&quot;&gt;Year&lt;/label&gt;
+					&lt;/div&gt;
+
+				    &lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+				    &lt;div class=&quot;range-group&quot;&gt;
+					    &lt;select class=&quot;form-control&quot; id=&quot;qs-year-end&quot;&gt;
+					        &lt;option&gt;2012&lt;/option&gt;
+					        &lt;option&gt;2013&lt;/option&gt;
+					        &lt;option&gt;2014&lt;/option&gt;
+					    &lt;/select&gt;
+					    &lt;label class=&quot;visually-hidden&quot; for=&quot;qs-year-end&quot;&gt;Year&lt;/label&gt;
+				    &lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;Done&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;form-group select col-sm-3 col-md-2&quot; data-xs-sheet=&quot;mileage-sheet&quot;&gt;
+			    &lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;X&lt;/a&gt;
+
+			    &lt;label class=&quot;control-label&quot; for=&quot;qs-mileage&quot;&gt;Mileage&lt;/label&gt;
+			    &lt;select class=&quot;form-control&quot; id=&quot;qs-mileage&quot;&gt;
+			        &lt;option&gt;Option One&lt;/option&gt;
+			        &lt;option&gt;Option Two&lt;/option&gt;
+			        &lt;option&gt;Option Three&lt;/option&gt;
+			    &lt;/select&gt;
+
+			    &lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;Done&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;form-group select col-sm-3 col-md-2&quot; data-xs-sheet=&quot;price-sheet&quot;&gt;
+				&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;X&lt;/a&gt;
+
+			    &lt;label fclass=&quot;control-label&quot; or=&quot;qs-price&quot;&gt;Price Range&lt;/label&gt;
+			    &lt;select class=&quot;form-control&quot; id=&quot;qs-price&quot;&gt;
+			        &lt;option&gt;Option One&lt;/option&gt;
+			        &lt;option&gt;Option Two&lt;/option&gt;
+			        &lt;option&gt;Option Three&lt;/option&gt;
+			    &lt;/select&gt;
+
+			    &lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;Done&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;col-sm-6 col-md-12&quot;&gt;
+				&lt;div class=&quot;row last-row quick-search-action&quot;&gt;
+					&lt;div class=&quot;alt-links col-sm-12 col-md-5 col-md-offset-5&quot;&gt;
+						&lt;a href=&quot;#&quot;&gt;My Saved Searches&lt;/a&gt;
+						&lt;a href=&quot;#&quot;&gt;Advanced Search&lt;/a&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;form-group col-sm-12 col-md-2&quot;&gt;
+					    &lt;button class=&quot;btn&quot;&gt;Search&lt;/button&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/form&gt;
+	&lt;h2 class=&quot;large&quot;&gt;My Activity&lt;/h2&gt;
+
+	&lt;div class=&quot;row my-activity&quot;&gt;
+
+		&lt;!-- activity section --&gt;
+		&lt;div class=&quot;col-sm-6&quot;&gt;
+			&lt;h3&gt;
+				Sales Activity (4)
+				&lt;a href=&quot;#&quot; class=&quot;heading-link&quot;&gt;View All&lt;/a&gt;
+			&lt;/h3&gt;
+
+			&lt;div class=&quot;listing&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;vehicle-thumb col-sm-3&quot;&gt;
+						&lt;img src=&quot;/img/vehicle-thumb.jpg&quot; alt=&quot;Vehicle Thumb&quot; /&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;listing-content col-sm-5&quot;&gt;
+						&lt;a href=&quot;#&quot; class=&quot;vehicle-name&quot;&gt;2013 BMW 5 Series lx&lt;/a&gt;
+						&lt;span class=&quot;vehicle-desc&quot;&gt;blue&lt;/span&gt;
+						&lt;span class=&quot;vehicle-desc&quot;&gt;68,542 miles&lt;/span&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;listing-meta col-sm-4&quot;&gt;
+						&lt;span class=&quot;vehicle-cost&quot;&gt;$57,875&lt;/span&gt;
+						&lt;span class=&quot;buy-it-now-price&quot;&gt;&lt;strong&gt;Buy It Now Price:&lt;/strong&gt; $75,000&lt;/span&gt;
+						&lt;span class=&quot;listing-tag winning-tag&quot;&gt;winning&lt;/span&gt;
+						&lt;span class=&quot;bid-count&quot;&gt;&lt;strong&gt;9&lt;/strong&gt; bids&lt;/span&gt;
+						&lt;span class=&quot;time-left winning&quot;&gt;57m, 37s left&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;listing&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;vehicle-thumb col-sm-3&quot;&gt;
+						&lt;img src=&quot;/img/vehicle-thumb.jpg&quot; alt=&quot;Vehicle Thumb&quot; /&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;listing-content col-sm-5&quot;&gt;
+						&lt;a href=&quot;#&quot; class=&quot;vehicle-name&quot;&gt;2013 BMW 5 Series lx&lt;/a&gt;
+						&lt;span class=&quot;vehicle-desc&quot;&gt;blue&lt;/span&gt;
+						&lt;span class=&quot;vehicle-desc&quot;&gt;68,542 miles&lt;/span&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;listing-meta col-sm-4&quot;&gt;
+						&lt;span class=&quot;vehicle-cost&quot;&gt;$57,875&lt;/span&gt;
+						&lt;span class=&quot;listing-tag losing-tag&quot;&gt;outbid&lt;/span&gt;
+						&lt;span class=&quot;bid-count&quot;&gt;&lt;strong&gt;9&lt;/strong&gt; bids&lt;/span&gt;
+						&lt;span class=&quot;time-left losing&quot;&gt;57m, 37s left&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- /activity section --&gt;
+		
+		&lt;!-- activity section --&gt;
+
+		&lt;div class=&quot;col-sm-6&quot;&gt;
+			&lt;h3&gt;
+				Stock Activity (2)
+				&lt;a href=&quot;#&quot; class=&quot;heading-link&quot;&gt;View All&lt;/a&gt;
+			&lt;/h3&gt;
+			&lt;div class=&quot;activity-container&quot;&gt;
+			
+
+					&lt;table class=&quot;table&quot; data-tablesaw-mode=&quot;swipe&quot; data-tablesaw-minimap&gt;
+						&lt;thead&gt;
+							&lt;tr&gt;
+								&lt;th class=&quot;active asc sort&quot;&gt;Description&lt;/th&gt;
+								&lt;th class=&quot;sort&quot;&gt;VIN&lt;/th&gt;
+								&lt;th class=&quot;sort&quot;&gt;My High Bid&lt;/th&gt;
+								&lt;th class=&quot;sort&quot;&gt;Winning Bid&lt;/th&gt;
+								&lt;th class=&quot;sort&quot;&gt;Status&lt;/th&gt;
+								&lt;th class=&quot;sort&quot;&gt;End Date&lt;/th&gt;
+
+							&lt;/tr&gt;
+						&lt;/thead&gt;
+
+						&lt;tbody&gt;
+							&lt;tr&gt;
+								&lt;td&gt;2012 320i&lt;/td&gt;
+								&lt;td&gt;1234567890ABCDEFG&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;Won&lt;/td&gt;
+								&lt;td&gt;01/15/15 - 23:07&lt;/td&gt;
+
+							&lt;/tr&gt;
+							&lt;tr&gt;
+								&lt;td&gt;2014 M5&lt;/td&gt;
+								&lt;td&gt;1234567890ABCDEFG&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;Won&lt;/td&gt;
+								&lt;td&gt;01/15/15 - 23:07&lt;/td&gt;
+
+							&lt;/tr&gt;
+							&lt;tr&gt;
+								&lt;td&gt;2013 535i&lt;/td&gt;
+								&lt;td&gt;1234567890ABCDEFG&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;Lost&lt;/td&gt;
+								&lt;td&gt;01/15/15 - 23:07&lt;/td&gt;
+
+							&lt;/tr&gt;
+							&lt;tr&gt;
+								&lt;td&gt;2014 320i&lt;/td&gt;
+								&lt;td&gt;1234567890ABCDEFG&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;Won&lt;/td&gt;
+								&lt;td&gt;01/15/15 - 23:07&lt;/td&gt;
+
+							&lt;/tr&gt;
+							&lt;tr&gt;
+								&lt;td&gt;2012 M5&lt;/td&gt;
+								&lt;td&gt;1234567890ABCDEFG&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;Won&lt;/td&gt;
+								&lt;td&gt;01/15/15 - 23:07&lt;/td&gt;
+
+							&lt;/tr&gt;
+							&lt;tr&gt;
+								&lt;td&gt;2014 535i&lt;/td&gt;
+								&lt;td&gt;1234567890ABCDEFG&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;$65,000&lt;/td&gt;
+								&lt;td&gt;Won&lt;/td&gt;
+								&lt;td&gt;01/15/15 - 23:07&lt;/td&gt;
+
+							&lt;/tr&gt;
+
+						&lt;/tbody&gt;
+					&lt;/table&gt;			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- /activity section --&gt;
+		
+
+	&lt;/div&gt;
+	&lt;!-- /activity row --&gt;
+
+	&lt;!-- activity row --&gt;
+
+
+	&lt;div class=&quot;row my-activity&quot;&gt;
+
+		&lt;!-- activity section --&gt;
+		&lt;div class=&quot;col-sm-6&quot;&gt;
+			&lt;h3&gt;
+				Sales Channel Activity (4)
+				&lt;a href=&quot;#&quot; class=&quot;heading-link&quot;&gt;View All&lt;/a&gt;
+			&lt;/h3&gt;
+
+			&lt;div class=&quot;activity-container&quot;&gt;
+				
+				
+			Hello world.
+
+			&lt;style&gt;
+			/* 
+			  make each pie piece a rectangle twice as high as it is wide.
+			  move the transform origin to the middle of the left side.
+			  Also ensure that overflow is set to hidden.
+			*/
+			  .pie {
+					position:absolute;
+					width:100px;
+					height:200px;
+					overflow:hidden;
+					left:150px;
+					-moz-transform-origin:left center;
+					-ms-transform-origin:left center;
+					-o-transform-origin:left center;
+					-webkit-transform-origin:left center;
+					transform-origin:left center;
+				}
+			/*
+			  unless the piece represents more than 50% of the whole chart.
+			  then make it a square, and ensure the transform origin is
+			  back in the center.
+
+			  NOTE: since this is only ever a single piece, you could
+			  move this to a piece specific rule and remove the extra class
+			*/
+				.pie.big {
+					width:200px;
+					height:200px;
+					left:50px;
+					-moz-transform-origin:center center;
+					-ms-transform-origin:center center;
+					-o-transform-origin:center center;
+					-webkit-transform-origin:center center;
+					transform-origin:center center;
+				}
+			/*
+			  this is the actual visible part of the pie. 
+			  Give it the same dimensions as the regular piece.
+			  Use border radius make it a half circle.
+			  move transform origin to the middle of the right side.
+			  Push it out to the left of the containing box.
+			*/
+				.pie:BEFORE {
+					content:&quot;&quot;;
+					position:absolute;
+					width:100px;
+					height:200px;
+					left:-100px;
+					border-radius:100px 0 0 100px;
+					-moz-transform-origin:right center;
+					-ms-transform-origin:right center;
+					-o-transform-origin:right center;
+					-webkit-transform-origin:right center;
+					transform-origin:right center;
+					
+				}
+			 /* if it's part of a big piece, bring it back into the square */
+				.pie.big:BEFORE {
+					left:0px;
+				}
+			/* 
+			  big pieces will also need a second semicircle, pointed in the
+			  opposite direction to hide the first part behind.
+			*/
+				.pie.big:AFTER {
+					content:&quot;&quot;;
+					position:absolute;
+					width:100px;
+					height:200px;
+					left:100px;
+					border-radius:0 100px 100px 0;
+				}
+			/*
+			  add colour to each piece.
+			*/
+				.pie:nth-of-type(1):BEFORE,
+				.pie:nth-of-type(1):AFTER {
+					background-color:blue;	
+				}
+				.pie:nth-of-type(2):AFTER,
+				.pie:nth-of-type(2):BEFORE {
+					background-color:green;	
+				}
+				.pie:nth-of-type(3):AFTER,
+				.pie:nth-of-type(3):BEFORE {
+					background-color:red;	
+				}
+				.pie:nth-of-type(4):AFTER,
+				.pie:nth-of-type(4):BEFORE {
+					background-color:orange;	
+				}
+			/*
+			  now rotate each piece based on their cumulative starting
+			  position
+			*/
+				.pie[data-start=&quot;30&quot;] {
+					-moz-transform: rotate(30deg); /* Firefox */
+					-ms-transform: rotate(30deg); /* IE */
+					-webkit-transform: rotate(30deg); /* Safari and Chrome */
+					-o-transform: rotate(30deg); /* Opera */
+					transform:rotate(30deg);
+				}
+				.pie[data-start=&quot;60&quot;] {
+					-moz-transform: rotate(60deg); /* Firefox */
+					-ms-transform: rotate(60deg); /* IE */
+					-webkit-transform: rotate(60deg); /* Safari and Chrome */
+					-o-transform: rotate(60deg); /* Opera */
+					transform:rotate(60deg);
+				}
+				.pie[data-start=&quot;100&quot;] {
+					-moz-transform: rotate(100deg); /* Firefox */
+					-ms-transform: rotate(100deg); /* IE */
+					-webkit-transform: rotate(100deg); /* Safari and Chrome */
+					-o-transform: rotate(100deg); /* Opera */
+					transform:rotate(100deg);
+				}
+			/*
+			  and rotate the amount of the pie that's showing.
+
+			  NOTE: add an extra degree to all but the final piece, 
+			  to fill in unsightly gaps.
+			*/
+				.pie[data-value=&quot;30&quot;]:BEFORE {
+					-moz-transform: rotate(31deg); /* Firefox */
+					-ms-transform: rotate(31deg); /* IE */
+					-webkit-transform: rotate(31deg); /* Safari and Chrome */
+					-o-transform: rotate(31deg); /* Opera */
+					transform:rotate(31deg);
+				}
+				.pie[data-value=&quot;40&quot;]:BEFORE {
+					-moz-transform: rotate(41deg); /* Firefox */
+					-ms-transform: rotate(41deg); /* IE */
+					-webkit-transform: rotate(41deg); /* Safari and Chrome */
+					-o-transform: rotate(41deg); /* Opera */
+					transform:rotate(41deg);
+				}
+				.pie[data-value=&quot;260&quot;]:BEFORE {
+					-moz-transform: rotate(260deg); /* Firefox */
+					-ms-transform: rotate(260deg); /* IE */
+					-webkit-transform: rotate(260deg); /* Safari and Chrome */
+					-o-transform: rotate(260deg); /* Opera */
+					transform:rotate(260deg);
+				}
+			/*
+			NOTE: you could also apply custom classes (i.e. .s0 .v30)
+			but if the CSS3 attr() function proposal ever gets implemented,
+			then all the above custom piece rules could be replaced with
+			the following:
+
+			.pie[data-start] {
+			   transform:rotate(attr(data-start,deg,0);
+			}
+			.pie[data-value]:BEFORE {
+			   transform:rotate(attr(data-value,deg,0);
+			}
+			*/
+
+			&lt;/style&gt;
+
+			&lt;!-- 
+			for each piece of the pie chart create one div and give it
+			a data-value attribute that represents the amount (in degrees) that
+			represents its total visible portion, and a data-start attribute
+			that matches the amount rotation for the starting  (the cumulative value amount of all the previous pieces).
+
+			 
+			--&gt;
+			&lt;div class=&quot;pie&quot; data-start=&quot;0&quot; data-value=&quot;30&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;pie highlight&quot; data-start=&quot;30&quot; data-value=&quot;30&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;pie&quot; data-start=&quot;60&quot; data-value=&quot;40&quot;&gt;&lt;/div&gt;
+			&lt;div class=&quot;pie big&quot; data-start=&quot;100&quot; data-value=&quot;260&quot;&gt;&lt;/div&gt;
+				
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+		&lt;!-- /activity section --&gt;
+		
+		&lt;!-- activity section --&gt;
+
+		&lt;div class=&quot;col-sm-6&quot;&gt;
+			&lt;h3&gt;
+				Vehicles For Sale (2)
+				&lt;a href=&quot;#&quot; class=&quot;heading-link&quot;&gt;View All&lt;/a&gt;
+			&lt;/h3&gt;
+
+			&lt;div class=&quot;listing&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;vehicle-thumb col-sm-3&quot;&gt;
+						&lt;img src=&quot;/img/vehicle-thumb.jpg&quot; alt=&quot;Vehicle Thumb&quot; /&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;listing-content col-sm-5&quot;&gt;
+						&lt;a href=&quot;#&quot; class=&quot;vehicle-name&quot;&gt;2013 BMW 5 Series lx&lt;/a&gt;
+						&lt;span class=&quot;vehicle-desc&quot;&gt;blue&lt;/span&gt;
+						&lt;span class=&quot;vehicle-desc&quot;&gt;68,542 miles&lt;/span&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;listing-meta col-sm-4&quot;&gt;
+						&lt;span class=&quot;vehicle-cost&quot;&gt;$57,875&lt;/span&gt;
+						&lt;span class=&quot;buy-it-now-price&quot;&gt;&lt;strong&gt;Buy It Now Price:&lt;/strong&gt; $75,000&lt;/span&gt;
+						&lt;span class=&quot;bid-count&quot;&gt;&lt;strong&gt;9&lt;/strong&gt; bids&lt;/span&gt;
+						&lt;span class=&quot;time-left&quot;&gt;57m, 37s left&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;listing&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;vehicle-thumb col-sm-3&quot;&gt;
+						&lt;img src=&quot;/img/vehicle-thumb.jpg&quot; alt=&quot;Vehicle Thumb&quot; /&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;listing-content col-sm-5&quot;&gt;
+						&lt;a href=&quot;#&quot; class=&quot;vehicle-name&quot;&gt;2013 BMW 5 Series lx&lt;/a&gt;
+						&lt;span class=&quot;vehicle-desc&quot;&gt;blue&lt;/span&gt;
+						&lt;span class=&quot;vehicle-desc&quot;&gt;68,542 miles&lt;/span&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;listing-meta col-sm-4&quot;&gt;
+						&lt;span class=&quot;vehicle-cost&quot;&gt;$57,875&lt;/span&gt;
+						&lt;span class=&quot;bid-count&quot;&gt;&lt;strong&gt;9&lt;/strong&gt; bids&lt;/span&gt;
+						&lt;span class=&quot;time-left&quot;&gt;57m, 37s left&lt;/span&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- /activity section --&gt;
+		
+
+	&lt;/div&gt;
+
+	&lt;!-- /activity row --&gt;
+	&lt;!-- removed tl &lt;div class=&quot;xs-hidden&quot;&gt;
+	&lt;h2 class=&quot;large&quot;&gt;Grounding&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-sm-8 extra-gutter&quot;&gt;
+			&lt;h3&gt;Grounded Vehicles Pending&lt;/h3&gt;
+
+			&lt;ul class=&quot;striped-list&quot;&gt;
+				&lt;li&gt;Expiring Today &lt;span class=&quot;available&quot;&gt;(2)&lt;/span&gt;&lt;/li&gt;
+				&lt;li&gt;
+					&lt;ul class=&quot;dashboard-list&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;2013 BMW 5 Series lx&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;2014 BMW 3 Series lx&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/li&gt;
+				&lt;li&gt;Expiring Soon &lt;span class=&quot;available&quot;&gt;(1)&lt;/span&gt;&lt;/li&gt;
+				&lt;li&gt;
+					&lt;ul class=&quot;dashboard-list&quot;&gt;
+						&lt;li&gt;&lt;a href=&quot;#&quot;&gt;2013 BMW 5 Series lx&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/li&gt;
+				&lt;li&gt;Overdue Mandatory Purchases &lt;span class=&quot;available&quot;&gt;(0)&lt;/span&gt;&lt;/li&gt;
+			&lt;/ul&gt;		&lt;/div&gt;
+
+		&lt;div class=&quot;col-sm-4&quot;&gt;
+			&lt;div class=&quot;xs-hidden&quot;&gt;
+				&lt;h3&gt;Ground a Vehicle&lt;/h3&gt;
+
+				&lt;form id=&quot;quick-ground-form&quot; class=&quot;quick-ground-form validate-form&quot;&gt;
+					&lt;div class=&quot;form-group text&quot;&gt;
+					    &lt;label class=&quot;control-label&quot; for=&quot;qg-vin&quot;&gt;Enter VIN&lt;/label&gt;
+					    &lt;input class=&quot;form-control&quot; id=&quot;qg-vin&quot; name=&quot;qg-vin&quot; type=&quot;text&quot; placeholder=&quot;VIN #&quot; required&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;form-group&quot;&gt;
+					    &lt;button class=&quot;btn&quot;&gt;Ground This Vehicle&lt;/button&gt;
+					&lt;/div&gt;
+					
+				&lt;/form&gt;
+			&lt;/div&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt; --&gt;
+
+	&lt;div class=&quot;xs-hidden&quot;&gt;
+		&lt;h2 class=&quot;large&quot;&gt;News&lt;/h2&gt;
+
+		&lt;div class=&quot;slider atd-slider&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;btn slide-prev&quot; title=&quot;Previous Slide&quot;&gt;&lt;&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;btn slide-next&quot; title=&quot;Next Slide&quot;&gt;&gt;&lt;/a&gt;
+
+			&lt;ul class=&quot;slide-list&quot;&gt;
+				&lt;li class=&quot;slide row&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+
+				&lt;li class=&quot;slide out-right row&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+
+				&lt;li class=&quot;slide out-right row&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;resource col-sm-3&quot;&gt;
+						&lt;span class=&quot;slide-title&quot;&gt;Show the Road It&rsquo;s Yours Show the Road It&rsquo;s Yours&lt;/span&gt;
+						&lt;img class=&quot;slide-thumb&quot; src=&quot;/img/resource-thumb.jpg&quot; alt=&quot;Resource&quot; /&gt;
+						&lt;span class=&quot;slide-byline&quot;&gt;Enhance your BMW with M Performance Parts.&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;&lt;/section&gt;

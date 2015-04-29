@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    $MAIN CONTENT AREA
+\*------------------------------------*/
+[role=main] {
+  padding: 0.5em 0.5em 2em;
+  overflow: hidden;
+  max-width: 72em;
+  margin: 0 auto; }
+
+/* custom */
+.toggle-btn {
+  background: #f3f3f3;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+  float: right;
+  position: relative;
+  top: -6px;
+}
+
+.sg-code pre {
+  white-space: pre !important;
+}

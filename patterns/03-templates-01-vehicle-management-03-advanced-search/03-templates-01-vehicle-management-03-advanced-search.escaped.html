@@ -1,0 +1,1205 @@
+&lt;section class=&quot;container&quot; role=&quot;main&quot;&gt;
+	&lt;form id=&quot;advanced-search-form&quot; class=&quot;advanced-search-form validate-form&quot;&gt;
+		&lt;header&gt;
+			&lt;span class=&quot;heading-info xs-hidden&quot; data-set=&quot;heading-info&quot;&gt;
+				&lt;span class=&quot;rover&quot;&gt;Vehicles Available &lt;strong&gt;100&lt;/strong&gt;&lt;/span&gt;
+			&lt;/span&gt;
+			&lt;h1&gt;Search Vehicles&lt;/h1&gt;
+			&lt;span class=&quot;heading-info xs-visible&quot; data-set=&quot;heading-info&quot;&gt;&lt;/span&gt;
+		&lt;/header&gt;
+
+		&lt;div class=&quot;top-actions&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;alt-links left col-sm-9 col-md-10&quot;&gt;
+					&lt;a href=&quot;#&quot;&gt;Saved Searches&lt;/a&gt;
+					&lt;a href=&quot;#&quot;&gt;Save This Search&lt;/a&gt;
+					&lt;a href=&quot;#&quot;&gt;Clear All &lt;span class=&quot;xs-hidden&quot;&gt;Search Filters&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+				
+				&lt;div class=&quot;col-sm-3 col-sm-offset-9 col-md-2 col-md-offset-10&quot;&gt;
+					&lt;button class=&quot;btn&quot;&gt;Search&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;search-section&quot;&gt;
+			&lt;h2&gt;VIN Number&lt;/h2&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-9 col-md-10&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;as-vin&quot;&gt;Enter VIN&lt;/label&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;as-vin&quot; name=&quot;as-vin&quot; placeholder=&quot;VIN #&quot;&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group button col-sm-3 col-md-2&quot;&gt;
+					&lt;button id=&quot;vin-search&quot; class=&quot;btn&quot;&gt;Search VIN&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;search-section&quot;&gt;
+			&lt;h2&gt;Basic Details&lt;/h2&gt;
+
+			&lt;div class=&quot;search-criteria xs-visible&quot;&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;
+					Make
+					&lt;span class=&quot;filter&quot;&gt;BMW&lt;/span&gt;
+				&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;
+					Model
+					&lt;span class=&quot;filter&quot;&gt;5 Series&lt;/span&gt;
+				&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;trim-sheet&quot;&gt;Trim&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;Year&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;Odometer&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;Price Range&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;form-group&quot; data-xs-sheet=&quot;make-sheet&quot;&gt;
+				&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;X&lt;/a&gt;
+
+				&lt;label class=&quot;control-label&quot;&gt;Make&lt;/label&gt;
+				
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-make-bmw&quot; name=&quot;as-make-bmw&quot; checked=&quot;checked&quot; /&gt;
+						&lt;label for=&quot;as-make-bmw&quot;&gt;BMW &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;make-sheet&quot;&gt;Done&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;form-group&quot; data-xs-sheet=&quot;model-sheet&quot;&gt;
+				&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;X&lt;/a&gt;
+
+				&lt;label class=&quot;control-label&quot;&gt;Model&lt;/label&gt;
+				
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-x5&quot; name=&quot;as-model-x5&quot; /&gt;
+						&lt;label for=&quot;as-model-x5&quot;&gt;X5 &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-328i&quot; name=&quot;as-model-328i&quot; /&gt;
+						&lt;label for=&quot;as-model-328i&quot;&gt;328i &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-335i&quot; name=&quot;as-model-335i&quot; /&gt;
+						&lt;label for=&quot;as-model-335i&quot;&gt;335i &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-328i-x-drive&quot; name=&quot;as-model-328i-x-drive&quot; /&gt;
+						&lt;label for=&quot;as-model-328i-x-drive&quot;&gt;328i xDrive &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-650i&quot; name=&quot;as-model-650i&quot; /&gt;
+						&lt;label for=&quot;as-model-650i&quot;&gt;650i &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-550i&quot; name=&quot;as-model-550i&quot; /&gt;
+						&lt;label for=&quot;as-model-550i&quot;&gt;550i &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-m3&quot; name=&quot;as-model-m3&quot; /&gt;
+						&lt;label for=&quot;as-model-m3&quot;&gt;M3 &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-x3&quot; name=&quot;as-model-x3&quot; /&gt;
+						&lt;label for=&quot;as-model-x3&quot;&gt;X3 &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-325i&quot; name=&quot;as-model-325i&quot; /&gt;
+						&lt;label for=&quot;as-model-325i&quot;&gt;325i &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-x6&quot; name=&quot;as-model-x6&quot; /&gt;
+						&lt;label for=&quot;as-model-x6&quot;&gt;X6 &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-528i&quot; name=&quot;as-model-528i&quot; /&gt;
+						&lt;label for=&quot;as-model-528i&quot;&gt;528i &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-535i&quot; name=&quot;as-model-535i&quot; /&gt;
+						&lt;label for=&quot;as-model-535i&quot;&gt;535i &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-750li&quot; name=&quot;as-model-750li&quot; /&gt;
+						&lt;label for=&quot;as-model-750li&quot;&gt;750Li &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-model-m5&quot; name=&quot;as-model-m5&quot; /&gt;
+						&lt;label for=&quot;as-model-m5&quot;&gt;M5 &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;Done&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;form-group&quot; data-xs-sheet=&quot;trim-sheet&quot;&gt;
+				&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;trim-sheet&quot;&gt;X&lt;/a&gt;
+
+				&lt;label class=&quot;control-label&quot;&gt;Trim&lt;/label&gt;
+				
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-trim-1&quot; name=&quot;as-trim-1&quot; /&gt;
+						&lt;label for=&quot;as-trim-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-trim-2&quot; name=&quot;as-trim-2&quot; /&gt;
+						&lt;label for=&quot;as-trim-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-trim-3&quot; name=&quot;as-trim-3&quot; /&gt;
+						&lt;label for=&quot;as-trim-3&quot;&gt;Label xDrive &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+					
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-trim-4&quot; name=&quot;as-trim-4&quot; /&gt;
+						&lt;label for=&quot;as-trim-4&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-trim-5&quot; name=&quot;as-trim-5&quot; /&gt;
+						&lt;label for=&quot;as-trim-5&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-trim-6&quot; name=&quot;as-trim-6&quot; /&gt;
+						&lt;label for=&quot;as-trim-6&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-trim-7&quot; name=&quot;as-trim-7&quot; /&gt;
+						&lt;label for=&quot;as-trim-7&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;checkbox-group col-sm-4 col-md-3 col-lg-2&quot;&gt;
+						&lt;input type=&quot;checkbox&quot; id=&quot;as-trim-8&quot; name=&quot;as-trim-8&quot; /&gt;
+						&lt;label for=&quot;as-trim-8&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;trim-sheet&quot;&gt;Done&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div data-xs-sheet=&quot;year-sheet&quot;&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;div class=&quot;form-group select col-sm-6 col-md-4&quot;&gt;
+						&lt;label class=&quot;control-label&quot;&gt;Year&lt;/label&gt;
+						&lt;div class=&quot;control-range padded&quot;&gt;
+							&lt;div class=&quot;range-group&quot;&gt;
+								&lt;select  class=&quot;form-control&quot; id=&quot;as-year-start&quot; name=&quot;as-year-start&quot;&gt;
+									&lt;option&gt;2001&lt;/option&gt;
+									&lt;option&gt;2002&lt;/option&gt;
+									&lt;option&gt;2003&lt;/option&gt;
+									&lt;option&gt;2004&lt;/option&gt;
+									&lt;option&gt;2005&lt;/option&gt;
+									&lt;option&gt;2006&lt;/option&gt;
+									&lt;option&gt;2007&lt;/option&gt;
+									&lt;option&gt;2008&lt;/option&gt;
+									&lt;option&gt;2009&lt;/option&gt;
+									&lt;option&gt;2010&lt;/option&gt;
+									&lt;option&gt;2011&lt;/option&gt;
+									&lt;option&gt;2012&lt;/option&gt;
+									&lt;option&gt;2013&lt;/option&gt;
+									&lt;option&gt;2014&lt;/option&gt;
+									&lt;option&gt;2015&lt;/option&gt;
+								&lt;/select&gt;
+								&lt;label class=&quot;visually-hidden&quot; for=&quot;as-year-start&quot;&gt;Year Start&lt;/label&gt;
+							&lt;/div&gt;
+
+							&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+							&lt;div class=&quot;range-group&quot;&gt;
+								&lt;select class=&quot;form-control&quot; id=&quot;as-year-end&quot; name=&quot;as-year-end&quot;&gt;
+									&lt;option&gt;2001&lt;/option&gt;
+									&lt;option&gt;2002&lt;/option&gt;
+									&lt;option&gt;2003&lt;/option&gt;
+									&lt;option&gt;2004&lt;/option&gt;
+									&lt;option&gt;2005&lt;/option&gt;
+									&lt;option&gt;2006&lt;/option&gt;
+									&lt;option&gt;2007&lt;/option&gt;
+									&lt;option&gt;2008&lt;/option&gt;
+									&lt;option&gt;2009&lt;/option&gt;
+									&lt;option&gt;2010&lt;/option&gt;
+									&lt;option&gt;2011&lt;/option&gt;
+									&lt;option&gt;2012&lt;/option&gt;
+									&lt;option&gt;2013&lt;/option&gt;
+									&lt;option&gt;2014&lt;/option&gt;
+									&lt;option selected=&quot;selected&quot;&gt;2015&lt;/option&gt;
+								&lt;/select&gt;
+								&lt;label class=&quot;visually-hidden&quot; for=&quot;as-year-end&quot;&gt;Year End&lt;/label&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;year-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group select col-sm-6 col-md-4&quot; data-xs-sheet=&quot;mileage-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Odometer&lt;/label&gt;
+					&lt;div class=&quot;control-range padded&quot;&gt;
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;input class=&quot;form-control number&quot; data-error-placement=&quot;after&quot; type=&quot;text&quot; id=&quot;as-odometer-start&quot; name=&quot;as-odometer-start&quot; pattern=&quot;\d*&quot;&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-odometer-start&quot;&gt;Odometer Start&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;input class=&quot;form-control number&quot; data-error-placement=&quot;after&quot; type=&quot;text&quot; id=&quot;as-odometer-end&quot; name=&quot;as-odometer-end&quot; pattern=&quot;\d*&quot;&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-odometer-end&quot;&gt;Odometer End&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;mileage-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group select col-sm-6 col-md-4&quot; data-xs-sheet=&quot;price-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Price Range&lt;/label&gt;
+					&lt;div class=&quot;control-range padded&quot;&gt;
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;div class=&quot;input-group&quot;&gt;
+						        &lt;div class=&quot;input-group-addon&quot;&gt;$&lt;/div&gt;
+								&lt;input class=&quot;form-control number&quot; data-error-placement=&quot;after&quot; type=&quot;text&quot; id=&quot;as-price-start&quot; name=&quot;as-price-start&quot; pattern=&quot;\d*&quot;&gt;
+								&lt;label class=&quot;visually-hidden&quot; for=&quot;as-price-start&quot;&gt;Price Range Start&lt;/label&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+
+						&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;div class=&quot;input-group&quot;&gt;
+						        &lt;div class=&quot;input-group-addon&quot;&gt;$&lt;/div&gt;
+								&lt;input class=&quot;form-control number&quot; data-error-placement=&quot;after&quot; type=&quot;text&quot; id=&quot;as-price-end&quot; name=&quot;as-price-end&quot; pattern=&quot;\d*&quot;&gt;
+								&lt;label class=&quot;visually-hidden&quot; for=&quot;as-price-end&quot;&gt;Price Range End&lt;/label&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;price-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;search-section&quot;&gt;
+			&lt;h2&gt;Pickup Location&lt;/h2&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;select col-sm-8 col-md-7&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;as-proximity&quot; &gt;Proximity&lt;/label&gt;
+					&lt;div class=&quot;form-inline dual-fields&quot;&gt;
+						&lt;div class=&quot;form-group&quot;&gt;
+							&lt;select  class=&quot;form-control&quot; id=&quot;as-proximity&quot; name=&quot;as-proximity&quot;&gt;
+								&lt;option&gt;25 miles&lt;/option&gt;
+								&lt;option&gt;50 miles&lt;/option&gt;
+								&lt;option&gt;100 miles&lt;/option&gt;
+								&lt;option&gt;Any Distance&lt;/option&gt;
+							&lt;/select&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;form-group&quot;&gt;
+							&lt;label for=&quot;as-zip&quot;&gt;of Zip Code&lt;/label&gt;
+							&lt;input class=&quot;form-control&quot; type=&quot;text&quot; id=&quot;as-zip&quot; name=&quot;as-zip&quot;&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group select col-sm-3 col-md-offset-1&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;as-state&quot;&gt;Pickup State&lt;/label&gt;
+					&lt;select class=&quot;form-control&quot; id=&quot;as-state&quot; name=&quot;as-state&quot;&gt;
+						&lt;option&gt;Alabama&lt;/option&gt;
+						&lt;option&gt;Alaska&lt;/option&gt;
+						&lt;option&gt;Arizona&lt;/option&gt;
+					&lt;/select&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;search-section&quot;&gt;
+			&lt;h2&gt;Condition&lt;/h2&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group select col-sm-6 col-md-4&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Grade&lt;/label&gt;
+					&lt;div class=&quot;control-range padded&quot;&gt;
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;select  class=&quot;form-control&quot; id=&quot;as-year-start&quot; name=&quot;as-year-start&quot;&gt;
+								&lt;option&gt;A&lt;/option&gt;
+								&lt;option&gt;B&lt;/option&gt;
+								&lt;option&gt;C&lt;/option&gt;
+								&lt;option&gt;D&lt;/option&gt;
+								&lt;option&gt;F&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-year-start&quot;&gt;Grade Start&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;select class=&quot;form-control&quot; id=&quot;as-year-end&quot; name=&quot;as-year-end&quot;&gt;
+								&lt;option&gt;A&lt;/option&gt;
+								&lt;option&gt;B&lt;/option&gt;
+								&lt;option&gt;C&lt;/option&gt;
+								&lt;option&gt;D&lt;/option&gt;
+								&lt;option selected=&quot;selected&quot;&gt;F&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-year-end&quot;&gt;Grade End&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group select col-sm-6 col-md-4&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Total Damages&lt;/label&gt;
+					&lt;div class=&quot;control-range padded&quot;&gt;
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;div class=&quot;input-group&quot;&gt;
+						        &lt;div class=&quot;input-group-addon&quot;&gt;$&lt;/div&gt;
+								&lt;input class=&quot;form-control number&quot; data-error-placement=&quot;after&quot; type=&quot;text&quot; id=&quot;as-odometer-start&quot; name=&quot;as-odometer-start&quot; pattern=&quot;\d*&quot;&gt;
+								&lt;label class=&quot;visually-hidden&quot; for=&quot;as-odometer-start&quot;&gt;Total Damages Start&lt;/label&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+
+						&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;div class=&quot;input-group&quot;&gt;
+						        &lt;div class=&quot;input-group-addon&quot;&gt;$&lt;/div&gt;
+								&lt;input class=&quot;form-control number&quot; data-error-placement=&quot;after&quot; type=&quot;text&quot; id=&quot;as-odometer-end&quot; name=&quot;as-odometer-end&quot; pattern=&quot;\d*&quot;&gt;
+								&lt;label class=&quot;visually-hidden&quot; for=&quot;as-odometer-end&quot;&gt;Total Damages End&lt;/label&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-xs-6 col-sm-3 col-md-2&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Reconditioned?&lt;/label&gt;
+					&lt;div class=&quot;radio-group radio-inline&quot;&gt;
+						&lt;input type=&quot;radio&quot; id=&quot;as-reconditioned-yes&quot; name=&quot;as-reconditioned-group&quot; checked=&quot;checked&quot; /&gt;
+						&lt;label for=&quot;as-reconditioned-yes&quot;&gt;Yes&lt;/label&gt;
+
+						&lt;input type=&quot;radio&quot; id=&quot;as-reconditioned-no&quot; name=&quot;as-reconditioned-group&quot; /&gt;
+						&lt;label for=&quot;as-reconditioned-no&quot;&gt;No&lt;/label&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-xs-6 col-sm-3 col-md-2&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Has Images?&lt;/label&gt;
+					&lt;div class=&quot;radio-group radio-inline&quot;&gt;
+						&lt;input type=&quot;radio&quot; id=&quot;as-images-yes&quot; name=&quot;as-images-group&quot; checked=&quot;checked&quot; /&gt;
+						&lt;label for=&quot;as-images-yes&quot;&gt;Yes&lt;/label&gt;
+
+						&lt;input type=&quot;radio&quot; id=&quot;as-images-no&quot; name=&quot;as-images-group&quot; /&gt;
+						&lt;label for=&quot;as-images-no&quot;&gt;No&lt;/label&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;search-section divided-fields&quot;&gt;
+			&lt;h2&gt;Additional Details&lt;/h2&gt;
+
+			&lt;div class=&quot;search-criteria xs-visible&quot;&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;body-style-sheet&quot;&gt;Body Style&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;transmission-sheet&quot;&gt;Transmission&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;engine-sheet&quot;&gt;Engine&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;drive-train-sheet&quot;&gt;Drive Train&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;fuel-type-sheet&quot;&gt;Fuel Type&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;doors-sheet&quot;&gt;Doors&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;exterior-color-sheet&quot;&gt;Exterior Color&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;interior-trim-sheet&quot;&gt;Interior Trim&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;top-type-sheet&quot;&gt;Top Type&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;options-sheet&quot;&gt;Options&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;body-style-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;body-style-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Body Style&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-body-style-awd-4wd&quot; name=&quot;as-body-style-awd-4wd&quot; /&gt;
+							&lt;label for=&quot;as-body-style-awd-4wd&quot;&gt;AWD/4WD &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-body-style-coupe&quot; name=&quot;as-body-style-coupe&quot; /&gt;
+							&lt;label for=&quot;as-body-style-coupe&quot;&gt;Coupe &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-body-style-convertible&quot; name=&quot;as-body-style-convertible&quot; /&gt;
+							&lt;label for=&quot;as-body-style-convertible&quot;&gt;Convertible &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-body-style-hatchback&quot; name=&quot;as-body-style-hatchback&quot; /&gt;
+							&lt;label for=&quot;as-body-style-hatchback&quot;&gt;Hatchback &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-body-style-luxury&quot; name=&quot;as-body-style-luxury&quot; /&gt;
+							&lt;label for=&quot;as-body-style-luxury&quot;&gt;Luxury &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-body-style-suv-crossover&quot; name=&quot;as-body-style-suv-crossover&quot; /&gt;
+							&lt;label for=&quot;as-body-style-suv-crossover&quot;&gt;SUV/Crossover &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-body-style-electric&quot; name=&quot;as-body-style-electric&quot; /&gt;
+							&lt;label for=&quot;as-body-style-electric&quot;&gt;Electric &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-body-style-sedan&quot; name=&quot;as-body-style-sedan&quot; /&gt;
+							&lt;label for=&quot;as-body-style-sedan&quot;&gt;Sedan &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;body-style-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-sm-12 col-md-4&quot; data-xs-sheet=&quot;transmission-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;transmission-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Transmission&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-transmission-automatic&quot; name=&quot;as-transmission-automatic&quot; /&gt;
+							&lt;label for=&quot;as-transmission-automatic&quot;&gt;Automatic &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-transmission-manual&quot; name=&quot;as-transmission-manual&quot; /&gt;
+							&lt;label for=&quot;as-transmission-manual&quot;&gt;Manual &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;transmission-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;engine-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;engine-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Engine&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-engine-3-cylinder&quot; name=&quot;as-engine-3-cylinder&quot; /&gt;
+							&lt;label for=&quot;as-engine-3-cylinder&quot;&gt;3 Cylinder &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-engine-4-cylinder&quot; name=&quot;as-engine-4-cylinder&quot; /&gt;
+							&lt;label for=&quot;as-engine-4-cylinder&quot;&gt;4 Cylinder &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-engine-5-cylinder&quot; name=&quot;as-engine-5-cylinder&quot; /&gt;
+							&lt;label for=&quot;as-engine-5-cylinder&quot;&gt;5 Cylinder &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-engine-6-cylinder&quot; name=&quot;as-engine-6-cylinder&quot; /&gt;
+							&lt;label for=&quot;as-engine-6-cylinder&quot;&gt;6 Cylinder &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-engine-8-cylinder&quot; name=&quot;as-engine-8-cylinder&quot; /&gt;
+							&lt;label for=&quot;as-engine-8-cylinder&quot;&gt;8 Cylinder &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-engine-hybrid&quot; name=&quot;as-engine-hybrid&quot; /&gt;
+							&lt;label for=&quot;as-engine-hybrid&quot;&gt;Hybrid &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;engine-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-sm-12 col-md-4&quot; data-xs-sheet=&quot;drive-train-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;drive-train-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Drive Train&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-drive-train-front&quot; name=&quot;as-drive-train-front&quot; /&gt;
+							&lt;label for=&quot;as-drive-train-front&quot;&gt;Front Wheel Drive &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-drive-train-rear&quot; name=&quot;as-drive-train-rear&quot; /&gt;
+							&lt;label for=&quot;as-drive-train-rear&quot;&gt;Rear Wheel Drive &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-model-awd-4wd&quot; name=&quot;as-model-awd-4wd&quot; /&gt;
+							&lt;label for=&quot;as-model-awd-4wd&quot;&gt;AWD/4WD &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;drive-train-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;fuel-type-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;fuel-type-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Fuel Type&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-fuel-type-gasoline&quot; name=&quot;as-fuel-type-gasoline&quot; /&gt;
+							&lt;label for=&quot;as-fuel-type-gasoline&quot;&gt;Gasoline &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-fuel-type-diesel&quot; name=&quot;as-fuel-type-diesel&quot; /&gt;
+							&lt;label for=&quot;as-fuel-type-diesel&quot;&gt;Diesel &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-fuel-type-electric&quot; name=&quot;as-fuel-type-electric&quot; /&gt;
+							&lt;label for=&quot;as-fuel-type-electric&quot;&gt;Electric &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-fuel-type-hybrid&quot; name=&quot;as-fuel-type-hybrid&quot; /&gt;
+							&lt;label for=&quot;as-fuel-type-hybrid&quot;&gt;Hybrid &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-fuel-type-alternative&quot; name=&quot;as-fuel-type-alternative&quot; /&gt;
+							&lt;label for=&quot;as-fuel-type-alternative&quot;&gt;Alternative &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;fuel-type-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-sm-12 col-md-4&quot; data-xs-sheet=&quot;doors-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;doors-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Doors&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-doors-2&quot; name=&quot;as-doors-2&quot; /&gt;
+							&lt;label for=&quot;as-doors-2&quot;&gt;Two Door &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-doors-3&quot; name=&quot;as-doors-3&quot; /&gt;
+							&lt;label for=&quot;as-doors-3&quot;&gt;Three Door &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-doors-4&quot; name=&quot;as-doors-4&quot; /&gt;
+							&lt;label for=&quot;as-doors-4&quot;&gt;Four Door &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-doors-5&quot; name=&quot;as-doors-5&quot; /&gt;
+							&lt;label for=&quot;as-doors-5&quot;&gt;Five Door &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;doors-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;exterior-color-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;exterior-color-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Exterior Color&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-beige&quot; name=&quot;as-exterior-color-beige&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-beige&quot;&gt;Beige &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-blue&quot; name=&quot;as-exterior-color-blue&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-blue&quot;&gt;Blue &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-burgundy&quot; name=&quot;as-exterior-color-burgundy&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-burgundy&quot;&gt;Burgundy &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-purple&quot; name=&quot;as-exterior-color-purple&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-purple&quot;&gt;Purple &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-black&quot; name=&quot;as-exterior-color-black&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-black&quot;&gt;Black &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-brown&quot; name=&quot;as-exterior-color-brown&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-brown&quot;&gt;Brown &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-charcoal&quot; name=&quot;as-exterior-color-charcoal&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-charcoal&quot;&gt;Charcoal &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-silver&quot; name=&quot;as-exterior-color-silver&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-silver&quot;&gt;Silver &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-gold&quot; name=&quot;as-exterior-color-gold&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-gold&quot;&gt;Gold &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-green&quot; name=&quot;as-exterior-color-green&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-green&quot;&gt;Green &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-orange&quot; name=&quot;as-exterior-color-orange&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-orange&quot;&gt;Orange &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-gray&quot; name=&quot;as-exterior-color-gray&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-gray&quot;&gt;Gray &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-white&quot; name=&quot;as-exterior-color-white&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-white&quot;&gt;White &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-exterior-color-red&quot; name=&quot;as-exterior-color-red&quot; /&gt;
+							&lt;label for=&quot;as-exterior-color-red&quot;&gt;Red &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;exterior-color-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-sm-12 col-md-4&quot; data-xs-sheet=&quot;interior-trim-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;interior-trim-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Interior Trim&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-trim-1&quot; name=&quot;as-interior-trim-1&quot; /&gt;
+							&lt;label for=&quot;as-interior-trim-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-trim-2&quot; name=&quot;as-interior-trim-2&quot; /&gt;
+							&lt;label for=&quot;as-interior-trim-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-trim-3&quot; name=&quot;as-interior-trim-3&quot; /&gt;
+							&lt;label for=&quot;as-interior-trim-3&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-trim-4&quot; name=&quot;as-interior-trim-4&quot; /&gt;
+							&lt;label for=&quot;as-interior-trim-4&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-trim-5&quot; name=&quot;as-interior-trim-5&quot; /&gt;
+							&lt;label for=&quot;as-interior-trim-5&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-trim-6&quot; name=&quot;as-interior-trim-6&quot; /&gt;
+							&lt;label for=&quot;as-interior-trim-6&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-trim-7&quot; name=&quot;as-interior-trim-7&quot; /&gt;
+							&lt;label for=&quot;as-interior-trim-7&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-trim-8&quot; name=&quot;as-interior-trim-8&quot; /&gt;
+							&lt;label for=&quot;as-interior-trim-8&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;interior-trim-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;interior-color-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;interior-color-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Interior Color&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-beige&quot; name=&quot;as-interior-color-beige&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-beige&quot;&gt;Beige &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-blue&quot; name=&quot;as-interior-color-blue&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-blue&quot;&gt;Blue &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-burgundy&quot; name=&quot;as-interior-color-burgundy&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-burgundy&quot;&gt;Burgundy &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-purple&quot; name=&quot;as-interior-color-purple&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-purple&quot;&gt;Purple &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-black&quot; name=&quot;as-interior-color-black&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-black&quot;&gt;Black &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-brown&quot; name=&quot;as-interior-color-brown&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-brown&quot;&gt;Brown &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-charcoal&quot; name=&quot;as-interior-color-charcoal&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-charcoal&quot;&gt;Charcoal &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-silver&quot; name=&quot;as-interior-color-silver&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-silver&quot;&gt;Silver &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-gold&quot; name=&quot;as-interior-color-gold&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-gold&quot;&gt;Gold &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-green&quot; name=&quot;as-interior-color-green&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-green&quot;&gt;Green &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-orange&quot; name=&quot;as-interior-color-orange&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-orange&quot;&gt;Orange &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-gray&quot; name=&quot;as-interior-color-gray&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-gray&quot;&gt;Gray &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-white&quot; name=&quot;as-interior-color-white&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-white&quot;&gt;White &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-interior-color-red&quot; name=&quot;as-interior-color-red&quot; /&gt;
+							&lt;label for=&quot;as-interior-color-red&quot;&gt;Red &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;interior-color-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-sm-12 col-md-4&quot; data-xs-sheet=&quot;top-type-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;top-type-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Top Type&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-top-type-1&quot; name=&quot;as-top-type-1&quot; /&gt;
+							&lt;label for=&quot;as-top-type-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-top-type-2&quot; name=&quot;as-top-type-2&quot; /&gt;
+							&lt;label for=&quot;as-top-type-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-top-type-3&quot; name=&quot;as-top-type-3&quot; /&gt;
+							&lt;label for=&quot;as-top-type-3&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-top-type-4&quot; name=&quot;as-top-type-4&quot; /&gt;
+							&lt;label for=&quot;as-top-type-4&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-top-type-5&quot; name=&quot;as-top-type-5&quot; /&gt;
+							&lt;label for=&quot;as-top-type-5&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-top-type-6&quot; name=&quot;as-top-type-6&quot; /&gt;
+							&lt;label for=&quot;as-top-type-6&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-top-type-7&quot; name=&quot;as-top-type-7&quot; /&gt;
+							&lt;label for=&quot;as-top-type-7&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-top-type-8&quot; name=&quot;as-top-type-8&quot; /&gt;
+							&lt;label for=&quot;as-top-type-8&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;top-type-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;options-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;options-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Options&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-options-1&quot; name=&quot;as-options-1&quot; /&gt;
+							&lt;label for=&quot;as-options-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-options-2&quot; name=&quot;as-options-2&quot; /&gt;
+							&lt;label for=&quot;as-options-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-options-3&quot; name=&quot;as-options-3&quot; /&gt;
+							&lt;label for=&quot;as-options-3&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-options-4&quot; name=&quot;as-options-4&quot; /&gt;
+							&lt;label for=&quot;as-options-4&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-options-5&quot; name=&quot;as-options-5&quot; /&gt;
+							&lt;label for=&quot;as-options-5&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-options-6&quot; name=&quot;as-options-6&quot; /&gt;
+							&lt;label for=&quot;as-options-6&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-options-7&quot; name=&quot;as-options-7&quot; /&gt;
+							&lt;label for=&quot;as-options-7&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-options-8&quot; name=&quot;as-options-8&quot; /&gt;
+							&lt;label for=&quot;as-options-8&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;options-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;search-section divided-fields&quot;&gt;
+			&lt;h2&gt;Sale Info&lt;/h2&gt;
+
+			&lt;div class=&quot;search-criteria xs-visible&quot;&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;sale-type-sheet&quot;&gt;Sale Type&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;vehicle-use-sheet&quot;&gt;Vehicle Use&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;vehicle-source-sheet&quot;&gt;Vehicle Source&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;sale-channel-sheet&quot;&gt;Sale Channel&lt;/a&gt;
+				&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;sale-event-sheet&quot;&gt;Sale Event&lt;/a&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;sale-type-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;sale-type-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Sale Type&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-type-1&quot; name=&quot;as-sale-type-1&quot; /&gt;
+							&lt;label for=&quot;as-sale-type-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-type-2&quot; name=&quot;as-sale-type-2&quot; /&gt;
+							&lt;label for=&quot;as-sale-type-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-type-3&quot; name=&quot;as-sale-type-3&quot; /&gt;
+							&lt;label for=&quot;as-sale-type-3&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-type-4&quot; name=&quot;as-sale-type-4&quot; /&gt;
+							&lt;label for=&quot;as-sale-type-4&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-type-5&quot; name=&quot;as-sale-type-5&quot; /&gt;
+							&lt;label for=&quot;as-sale-type-5&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-type-6&quot; name=&quot;as-sale-type-6&quot; /&gt;
+							&lt;label for=&quot;as-sale-type-6&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-type-7&quot; name=&quot;as-sale-type-7&quot; /&gt;
+							&lt;label for=&quot;as-sale-type-7&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-type-8&quot; name=&quot;as-sale-type-8&quot; /&gt;
+							&lt;label for=&quot;as-sale-type-8&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;sale-type-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-sm-12 col-md-4&quot; data-xs-sheet=&quot;vehicle-use-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;vehicle-use-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Vehicle Use&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-use-1&quot; name=&quot;as-vehicle-use-1&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-use-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-use-2&quot; name=&quot;as-vehicle-use-2&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-use-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-use-3&quot; name=&quot;as-vehicle-use-3&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-use-3&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-use-4&quot; name=&quot;as-vehicle-use-4&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-use-4&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;vehicle-use-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;vehicle-source-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;vehicle-source-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Vehicle Source&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-source-1&quot; name=&quot;as-vehicle-source-1&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-source-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-source-2&quot; name=&quot;as-vehicle-source-2&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-source-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-source-3&quot; name=&quot;as-vehicle-source-3&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-source-3&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-source-4&quot; name=&quot;as-vehicle-source-4&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-source-4&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-source-5&quot; name=&quot;as-vehicle-source-5&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-source-5&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-source-6&quot; name=&quot;as-vehicle-source-6&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-source-6&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-source-7&quot; name=&quot;as-vehicle-source-7&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-source-7&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-vehicle-source-8&quot; name=&quot;as-vehicle-source-8&quot; /&gt;
+							&lt;label for=&quot;as-vehicle-source-8&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;vehicle-source-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group col-sm-12 col-md-4&quot; data-xs-sheet=&quot;sale-channel-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;sale-channel-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Sale Channel&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-channel-1&quot; name=&quot;as-sale-channel-1&quot; /&gt;
+							&lt;label for=&quot;as-sale-channel-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-channel-2&quot; name=&quot;as-sale-channel-2&quot; /&gt;
+							&lt;label for=&quot;as-sale-channel-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-channel-3&quot; name=&quot;as-sale-channel-3&quot; /&gt;
+							&lt;label for=&quot;as-sale-channel-3&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-6&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-channel-4&quot; name=&quot;as-sale-channel-4&quot; /&gt;
+							&lt;label for=&quot;as-sale-channel-4&quot;&gt;Labels &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;sale-channel-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group col-sm-12 col-md-8&quot; data-xs-sheet=&quot;sale-event-sheet&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;sale-event-sheet&quot;&gt;X&lt;/a&gt;
+
+					&lt;label class=&quot;control-label&quot;&gt;Sale Event&lt;/label&gt;
+					
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-event-1&quot; name=&quot;as-sale-event-1&quot; /&gt;
+							&lt;label for=&quot;as-sale-event-1&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-event-2&quot; name=&quot;as-sale-event-2&quot; /&gt;
+							&lt;label for=&quot;as-sale-event-2&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-event-3&quot; name=&quot;as-sale-event-3&quot; /&gt;
+							&lt;label for=&quot;as-sale-event-3&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-event-4&quot; name=&quot;as-sale-event-4&quot; /&gt;
+							&lt;label for=&quot;as-sale-event-4&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-event-5&quot; name=&quot;as-sale-event-5&quot; /&gt;
+							&lt;label for=&quot;as-sale-event-5&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-event-6&quot; name=&quot;as-sale-event-6&quot; /&gt;
+							&lt;label for=&quot;as-sale-event-6&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-event-7&quot; name=&quot;as-sale-event-7&quot; /&gt;
+							&lt;label for=&quot;as-sale-event-7&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;checkbox-group col-sm-4 col-md-3&quot;&gt;
+							&lt;input type=&quot;checkbox&quot; id=&quot;as-sale-event-8&quot; name=&quot;as-sale-event-8&quot; /&gt;
+							&lt;label for=&quot;as-sale-event-8&quot;&gt;Label &lt;span class=&quot;available&quot;&gt;(18)&lt;/span&gt;&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+
+					&lt;a href=&quot;#&quot; class=&quot;btn xs-visible&quot; data-sheet-toggle=&quot;sale-event-sheet&quot;&gt;Done&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;bottom-actions&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;alt-links left col-sm-9 col-md-10&quot;&gt;
+					&lt;a href=&quot;#&quot;&gt;Saved Searches&lt;/a&gt;
+					&lt;a href=&quot;#&quot;&gt;Save This Search&lt;/a&gt;
+					&lt;a href=&quot;#&quot;&gt;Clear All &lt;span class=&quot;xs-hidden&quot;&gt;Search Filters&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+				
+				&lt;div class=&quot;col-sm-3 col-sm-offset-9 col-md-2 col-md-offset-10&quot;&gt;
+					&lt;button class=&quot;btn&quot;&gt;Search&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/form&gt;
+&lt;/section&gt;

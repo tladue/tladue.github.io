@@ -1,0 +1,69 @@
+&lt;div class=&quot;modal fade&quot; id=&quot;add-location-modal&quot; data-xs-sheet=&quot;add-location-sheet&quot;&gt;
+	&lt;div class=&quot;modal-dialog&quot;&gt;
+		&lt;div class=&quot;modal-content&quot;&gt;
+			&lt;div class=&quot;modal-header&quot;&gt;
+				&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;X&lt;/span&gt;&lt;/button&gt;
+			&lt;/div&gt;
+			
+			&lt;div class=&quot;modal-body&quot;&gt;
+				&lt;a href=&quot;#&quot; class=&quot;close xs-visible&quot; data-sheet-toggle=&quot;add-location-sheet&quot;&gt;X&lt;/a&gt;
+				&lt;h2&gt;Add a Location&lt;/h2&gt;
+
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;form-group text col-xs-12&quot;&gt;
+						&lt;label class=&quot;control-label&quot; for=&quot;loc-address-1&quot;&gt;Address &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;loc-address-1&quot; name=&quot;loc-address-1&quot; required&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;form-group text col-xs-12&quot;&gt;
+						&lt;label class=&quot;control-label&quot; for=&quot;loc-address-2&quot;&gt;Address 2&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;loc-address-2&quot; name=&quot;loc-address-2&quot;&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;form-group text col-sm-5&quot;&gt;
+						&lt;label class=&quot;control-label&quot; for=&quot;loc-city&quot;&gt;City &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;loc-city&quot; name=&quot;loc-city&quot; data-error-message=&quot;Required.&quot; required&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;form-group select col-xs-6 col-sm-4&quot;&gt;
+						&lt;label class=&quot;control-label&quot; for=&quot;loc-state&quot;&gt;State &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+						&lt;select class=&quot;form-control required&quot; id=&quot;loc-state&quot; name=&quot;loc-state&quot; data-error-message=&quot;Required.&quot;&gt;
+							&lt;option value&gt;Select&lt;/option&gt;
+							&lt;option value=&quot;AL&quot;&gt;Alabama&lt;/option&gt;
+							&lt;option value=&quot;AK&quot;&gt;Alaska&lt;/option&gt;
+							&lt;option value=&quot;AR&quot;&gt;Arkansas&lt;/option&gt;
+							&lt;option&gt;Others&lt;/option&gt;
+						&lt;/select&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;form-group text col-xs-6 col-sm-3&quot;&gt;
+						&lt;label class=&quot;control-label&quot; for=&quot;loc-zip&quot;&gt;Zip &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;loc-zip&quot; name=&quot;loc-zip&quot; data-error-message=&quot;Required.&quot; required&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;form-group col-xs-12&quot;&gt;
+					   	&lt;label class=&quot;control-label&quot;&gt;Radio Buttons&lt;/label&gt;
+					   	&lt;div class=&quot;radio-group&quot;&gt;
+						   	&lt;input type=&quot;radio&quot; id=&quot;loc-save-yes&quot; name=&quot;loc-save&quot; checked=&quot;checked&quot; /&gt;
+						   	&lt;label for=&quot;loc-save-yes&quot;&gt;Save and Add to my Locations&lt;/label&gt;
+
+							&lt;input type=&quot;radio&quot; id=&quot;loc-save-no&quot; name=&quot;loc-save&quot; /&gt;
+							&lt;label for=&quot;loc-save-no&quot;&gt;Save and do Not Add to my Locations&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;form-group col-sm-3 col-sm-offset-9&quot;&gt;
+					   	&lt;a href=&quot;#&quot; class=&quot;btn&quot; data-dismiss=&quot;modal&quot; data-sheet-toggle=&quot;add-location-sheet&quot; aria-label=&quot;Close&quot;&gt;Done&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- /.modal-content --&gt;
+	&lt;/div&gt;&lt;!-- /.modal-dialog --&gt;
+&lt;/div&gt;&lt;!-- /.modal --&gt;

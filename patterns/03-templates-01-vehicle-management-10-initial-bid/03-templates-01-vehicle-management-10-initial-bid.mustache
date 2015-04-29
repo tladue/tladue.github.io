@@ -1,0 +1,58 @@
+&lt;section class=&quot;container&quot; role=&quot;main&quot;&gt;
+	&lt;div class=&quot;breadcrumbs xs-hidden&quot;&gt;
+		&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;Advanced Search&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;Search Results&lt;/a&gt;
+		&lt;a href=&quot;#&quot;&gt;2013 BMW 5 Series lx&lt;/a&gt;
+		&lt;span&gt;Place Bid&lt;/span&gt;
+	&lt;/div&gt;
+
+	&lt;h1&gt;Place Bid&lt;/h1&gt;
+
+	{{&gt; organisms-bid-buy-listing}}
+
+	&lt;form id=&quot;initial-bid-form&quot; class=&quot;initial-bid-form buy-it-now-form&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-sm-3&quot;&gt;
+				{{&gt; organisms-bid-buy-payment-options}}
+			&lt;/div&gt;
+
+			&lt;div class=&quot;col-sm-5&quot;&gt;
+				{{&gt; organisms-bid-buy-delivery-options}}
+			&lt;/div&gt;
+
+			&lt;div class=&quot;col-sm-4&quot;&gt;
+				&lt;h2&gt;Enter Bid Amount&lt;/h2&gt;
+
+				&lt;div class=&quot;form-group text&quot;&gt;
+					{{&gt; molecules-bid-adjust-field}}
+				&lt;/div&gt;
+
+				&lt;dl class=&quot;totals&quot;&gt;
+					&lt;dt&gt;Total Delivery Charge:&lt;/dt&gt;
+					&lt;dd&gt;$210&lt;/dd&gt;
+				&lt;/dl&gt;
+
+				{{&gt; organisms-bid-buy-agree-group}}
+
+				&lt;div class=&quot;form-group&quot;&gt;
+					&lt;div class=&quot;row&quot;&gt;
+						&lt;div class=&quot;col-sm-5 col-md-5 xs-hidden&quot;&gt;
+							&lt;a href=&quot;#&quot; class=&quot;btn btn-cancel&quot;&gt;Cancel&lt;/a&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;col-sm-5 col-sm-offset-2 col-md-7 col-md-offset-0&quot;&gt;
+							&lt;button class=&quot;btn&quot;&gt;Buy&lt;/button&gt;
+						&lt;/div&gt;
+
+						&lt;div class=&quot;col-xs-12 xs-cancel-button xs-visible&quot;&gt;
+							&lt;a href=&quot;#&quot; class=&quot;btn btn-secondary&quot;&gt;Cancel&lt;/a&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		{{&gt; molecules-add-location-modal}}
+	&lt;/form&gt;
+&lt;/section&gt;

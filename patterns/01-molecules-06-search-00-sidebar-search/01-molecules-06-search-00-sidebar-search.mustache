@@ -1,0 +1,168 @@
+&lt;div id=&quot;srp-search&quot; class=&quot;sidebar-block sidebar-search xs-collapse&quot;&gt;
+	&lt;h3&gt;My Search&lt;/h3&gt;
+
+	&lt;form class=&quot;refine-search&quot;&gt;
+		&lt;div class=&quot;xs-hidden&quot;&gt;
+			{{&gt; molecules-search-filters}}
+		&lt;/div&gt;
+
+		&lt;div class=&quot;sidebar-fields&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group select col-sm-12&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Grade&lt;/label&gt;
+					&lt;div class=&quot;control-range sm-full&quot;&gt;
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;select  class=&quot;form-control&quot; id=&quot;as-year-start&quot; name=&quot;as-year-start&quot;&gt;
+								&lt;option&gt;A&lt;/option&gt;
+								&lt;option&gt;B&lt;/option&gt;
+								&lt;option&gt;C&lt;/option&gt;
+								&lt;option&gt;D&lt;/option&gt;
+								&lt;option&gt;F&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-year-start&quot;&gt;Grade Start&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;select class=&quot;form-control&quot; id=&quot;as-year-end&quot; name=&quot;as-year-end&quot;&gt;
+								&lt;option&gt;A&lt;/option&gt;
+								&lt;option&gt;B&lt;/option&gt;
+								&lt;option&gt;C&lt;/option&gt;
+								&lt;option&gt;D&lt;/option&gt;
+								&lt;option selected=&quot;selected&quot;&gt;F&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-year-end&quot;&gt;Grade End&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group select col-sm-12&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Year&lt;/label&gt;
+					&lt;div class=&quot;control-range sm-full&quot;&gt;
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;select  class=&quot;form-control&quot; id=&quot;as-year-start&quot; name=&quot;as-year-start&quot;&gt;
+								&lt;option&gt;2001&lt;/option&gt;
+								&lt;option&gt;2002&lt;/option&gt;
+								&lt;option&gt;2003&lt;/option&gt;
+								&lt;option&gt;2004&lt;/option&gt;
+								&lt;option&gt;2005&lt;/option&gt;
+								&lt;option&gt;2006&lt;/option&gt;
+								&lt;option&gt;2007&lt;/option&gt;
+								&lt;option&gt;2008&lt;/option&gt;
+								&lt;option&gt;2009&lt;/option&gt;
+								&lt;option&gt;2010&lt;/option&gt;
+								&lt;option&gt;2011&lt;/option&gt;
+								&lt;option&gt;2012&lt;/option&gt;
+								&lt;option&gt;2013&lt;/option&gt;
+								&lt;option&gt;2014&lt;/option&gt;
+								&lt;option&gt;2015&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-year-start&quot;&gt;Year Start&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;select class=&quot;form-control&quot; id=&quot;as-year-end&quot; name=&quot;as-year-end&quot;&gt;
+								&lt;option&gt;2001&lt;/option&gt;
+								&lt;option&gt;2002&lt;/option&gt;
+								&lt;option&gt;2003&lt;/option&gt;
+								&lt;option&gt;2004&lt;/option&gt;
+								&lt;option&gt;2005&lt;/option&gt;
+								&lt;option&gt;2006&lt;/option&gt;
+								&lt;option&gt;2007&lt;/option&gt;
+								&lt;option&gt;2008&lt;/option&gt;
+								&lt;option&gt;2009&lt;/option&gt;
+								&lt;option&gt;2010&lt;/option&gt;
+								&lt;option&gt;2011&lt;/option&gt;
+								&lt;option&gt;2012&lt;/option&gt;
+								&lt;option&gt;2013&lt;/option&gt;
+								&lt;option&gt;2014&lt;/option&gt;
+								&lt;option selected=&quot;selected&quot;&gt;2015&lt;/option&gt;
+							&lt;/select&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-year-end&quot;&gt;Year End&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group select col-sm-12&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Odometer&lt;/label&gt;
+					&lt;div class=&quot;control-range sm-full md-full full&quot;&gt;
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;input class=&quot;form-control&quot; type=&quot;text&quot; id=&quot;as-odometer-start&quot; name=&quot;as-odometer-start&quot; pattern=&quot;\d*&quot;&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-odometer-start&quot;&gt;Odometer Start&lt;/label&gt;
+						&lt;/div&gt;
+
+						&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;input class=&quot;form-control&quot; type=&quot;text&quot; id=&quot;as-odometer-end&quot; name=&quot;as-odometer-end&quot; pattern=&quot;\d*&quot;&gt;
+							&lt;label class=&quot;visually-hidden&quot; for=&quot;as-odometer-end&quot;&gt;Odometer End&lt;/label&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;form-group select col-sm-12&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Price Range&lt;/label&gt;
+					&lt;div class=&quot;control-range sm-full md-full full&quot;&gt;
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;div class=&quot;input-group&quot;&gt;
+						        &lt;div class=&quot;input-group-addon&quot;&gt;$&lt;/div&gt;
+								&lt;input class=&quot;form-control&quot; type=&quot;text&quot; id=&quot;as-price-start&quot; name=&quot;as-price-start&quot; pattern=&quot;\d*&quot;&gt;
+								&lt;label class=&quot;visually-hidden&quot; for=&quot;as-price-start&quot;&gt;Price Range Start&lt;/label&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+
+						&lt;span class=&quot;connector&quot;&gt;To&lt;/span&gt;
+
+						&lt;div class=&quot;range-group&quot;&gt;
+							&lt;div class=&quot;input-group&quot;&gt;
+						        &lt;div class=&quot;input-group-addon&quot;&gt;$&lt;/div&gt;
+								&lt;input class=&quot;form-control&quot; type=&quot;text&quot; id=&quot;as-price-end&quot; name=&quot;as-price-end&quot; pattern=&quot;\d*&quot;&gt;
+								&lt;label class=&quot;visually-hidden&quot; for=&quot;as-price-end&quot;&gt;Price Range End&lt;/label&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;div class=&quot;search-criteria xs-visible&quot;&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;model-sheet&quot;&gt;Model&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;trim-sheet&quot;&gt;Trim&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;transmission-sheet&quot;&gt;Transmission&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;body-style-sheet&quot;&gt;Body Style&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;engine-sheet&quot;&gt;Engine&lt;/a&gt;
+			&lt;a href=&quot;#&quot; class=&quot;search-field&quot; data-sheet-toggle=&quot;exterior-color-sheet&quot;&gt;Exterior Color&lt;/a&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;search-criteria xs-hidden&quot;&gt;
+			&lt;a href=&quot;#search-model-modal&quot; class=&quot;search-field&quot; data-toggle=&quot;modal&quot;&gt;Model&lt;/a&gt;
+			&lt;a href=&quot;#search-trim-modal&quot; class=&quot;search-field&quot; data-toggle=&quot;modal&quot;&gt;Trim&lt;/a&gt;
+			&lt;a href=&quot;#search-transmission-modal&quot; class=&quot;search-field&quot; data-toggle=&quot;modal&quot;&gt;Transmission&lt;/a&gt;
+			&lt;a href=&quot;#search-body-style-modal&quot; class=&quot;search-field&quot; data-toggle=&quot;modal&quot;&gt;Body Style&lt;/a&gt;
+			&lt;a href=&quot;#search-engine-modal&quot; class=&quot;search-field&quot; data-toggle=&quot;modal&quot;&gt;Engine&lt;/a&gt;
+			&lt;a href=&quot;#search-exterior-color-modal&quot; class=&quot;search-field&quot; data-toggle=&quot;modal&quot;&gt;Exterior Color&lt;/a&gt;
+		&lt;/div&gt;
+
+		{{&gt; molecules-search-field-model}}
+		{{&gt; molecules-search-field-trim}}
+		{{&gt; molecules-search-field-transmission}}
+		{{&gt; molecules-search-field-body-style}}
+		{{&gt; molecules-search-field-engine}}
+		{{&gt; molecules-search-field-exterior-color}}
+	&lt;/form&gt;
+
+&lt;/div&gt;
+
+&lt;a href=&quot;#srp-search&quot; class=&quot;btn open-toggle xs-visible&quot; data-toggle=&quot;xs-collapse&quot;&gt;
+	&lt;span class=&quot;closed&quot;&gt;Refine Your Search &gt;&lt;/span&gt;
+	&lt;span class=&quot;open&quot;&gt;&lt; Hide Search Filters&lt;/span&gt;
+&lt;/a&gt;

@@ -1,0 +1,120 @@
+&lt;section class=&quot;container&quot; role=&quot;main&quot;&gt;
+	&lt;h1&gt;Add Payment Information&lt;/h1&gt;
+
+	&lt;p&gt;Please enter your bank account information below.&lt;/p&gt;
+
+	&lt;form id=&quot;add-payment-information-form&quot; class=&quot;add-payment-information-form validate-form&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-sm-6&quot;&gt;
+				&lt;div class=&quot;form-group text&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;api-account-name&quot;&gt;Enter a name for this account &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;api-account-name&quot; name=&quot;api-account-name&quot; required /&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-sm-6&quot;&gt;
+				&lt;div class=&quot;form-group text&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;api-bank-name&quot;&gt;Financial Institution Name &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;api-bank-name&quot; name=&quot;api-bank-name&quot; required&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;col-sm-8 col-md-6&quot;&gt;
+				&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;form-group text col-sm-5&quot;&gt;
+						&lt;label class=&quot;control-label&quot; for=&quot;api-city&quot;&gt;City &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;api-city&quot; name=&quot;api-city&quot; data-error-message=&quot;Required.&quot; required&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;form-group select col-xs-4 col-sm-4&quot;&gt;
+						&lt;label class=&quot;control-label&quot; for=&quot;api-state&quot;&gt;State &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+						&lt;select class=&quot;form-control required&quot; id=&quot;api-state&quot; name=&quot;api-state&quot; data-error-message=&quot;Required.&quot;&gt;
+							&lt;option value&gt;Select&lt;/option&gt;
+							&lt;option value=&quot;AL&quot;&gt;Alabama&lt;/option&gt;
+							&lt;option value=&quot;AK&quot;&gt;Alaska&lt;/option&gt;
+							&lt;option value=&quot;AR&quot;&gt;Arkansas&lt;/option&gt;
+							&lt;option&gt;Others&lt;/option&gt;
+						&lt;/select&gt;
+					&lt;/div&gt;
+
+					&lt;div class=&quot;form-group text col-xs-8 col-sm-3&quot;&gt;
+						&lt;label class=&quot;control-label&quot; for=&quot;api-zip&quot;&gt;Zip &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;api-zip&quot; name=&quot;api-zip&quot; data-error-message=&quot;Required.&quot; required&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;hr /&gt;
+
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-sm-6&quot;&gt;
+				&lt;div class=&quot;form-group text&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;api-name&quot;&gt;Name on Account &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;api-name&quot; name=&quot;api-name&quot; required&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group select&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;api-account-type&quot;&gt;Account Type &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+					&lt;select class=&quot;form-control&quot; id=&quot;api-account-type&quot; name=&quot;api-account-type&quot; required&gt;
+						&lt;option value&gt;Select&lt;/option&gt;
+						&lt;option value=&quot;checking&quot;&gt;Checking&lt;/option&gt;
+					&lt;/select&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group text&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;api-routing&quot;&gt;Routing Transit Number &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;api-routing&quot; name=&quot;api-routing&quot; required&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group text&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;api-account-number&quot;&gt;Account Number &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;api-account-number&quot; name=&quot;api-account-number&quot; required&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;form-group text&quot;&gt;
+					&lt;label class=&quot;control-label&quot; for=&quot;api-confirm-account-number&quot;&gt;Confirm Account Number &lt;sup title=&quot;Required&quot;&gt;*&lt;/sup&gt;&lt;/label&gt;
+					&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;api-confirm-account-number&quot; name=&quot;api-confirm-account-number&quot; required equalTo=&quot;#api-account-number&quot;&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;xs-visible&quot; data-set=&quot;routing-map&quot;&gt;&lt;/div&gt;
+
+				&lt;div class=&quot;form-group&quot;&gt;
+					&lt;label class=&quot;control-label&quot;&gt;Set as Default Payment Account?&lt;/label&gt;
+					&lt;div class=&quot;radio-group radio-inline&quot;&gt;
+						&lt;input type=&quot;radio&quot; id=&quot;api-default-yes&quot; name=&quot;api-default-group&quot; checked=&quot;checked&quot; /&gt;
+						&lt;label for=&quot;api-default-yes&quot;&gt;Yes&lt;/label&gt;
+
+						&lt;input type=&quot;radio&quot; id=&quot;api-default-no&quot; name=&quot;api-default-group&quot; /&gt;
+						&lt;label for=&quot;api-default-no&quot;&gt;No&lt;/label&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div class=&quot;col-sm-6 xs-hidden&quot; data-set=&quot;routing-map&quot;&gt;
+				&lt;div class=&quot;form-group text rover&quot;&gt;
+					&lt;label&gt;Routing Number/Account Number Locationsm&lt;/label&gt;
+					&lt;img class=&quot;image-key&quot; src=&quot;/img/find-account-number.jpg&quot; alt=&quot;Find account number&quot; /&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		{{&gt; molecules-terms-checkbox}}
+
+		{{&gt; molecules-terms-block}}
+
+		&lt;div class=&quot;bottom-actions&quot;&gt;
+			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;col-xs-6 col-sm-5 col-sm-offset-4 col-md-4 col-md-offset-6&quot;&gt;
+					&lt;a href=&quot;#&quot; class=&quot;btn btn-cancel&quot;&gt;Cancel&lt;/a&gt;
+				&lt;/div&gt;
+
+				&lt;div class=&quot;col-xs-6 col-sm-3 col-md-2&quot;&gt;
+					&lt;button class=&quot;btn&quot;&gt;Submit&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/form&gt;
+&lt;/section&gt;
