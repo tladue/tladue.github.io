@@ -7519,14 +7519,6 @@ label sup[title="Required"],
 
 /* checkbox and radio */
 
-.checkbox-group,
-.radio-group { /*
-  [disabled="disabled"] + & {
-  	background-color: blue;
-  	cursor: not-allowed;
-  }*/
-}
-
 .checkbox-group [type="checkbox"],
 .checkbox-group [type="radio"],
 .radio-group [type="checkbox"],
@@ -7536,11 +7528,11 @@ label sup[title="Required"],
 
 .lt-ie9 .checkbox-group [type="checkbox"],
 .lt-ie9
-    .checkbox-group [type="radio"],
+  .checkbox-group [type="radio"],
 .lt-ie9
-    .radio-group [type="checkbox"],
+  .radio-group [type="checkbox"],
 .lt-ie9
-    .radio-group [type="radio"] {
+  .radio-group [type="radio"] {
 	visibility: visible;
 	height: auto;
 	width: auto;
@@ -7603,11 +7595,11 @@ label sup[title="Required"],
 .lt-ie9 .checkbox-group .control-range .connector,
 .control-range .lt-ie9 .checkbox-group .connector,
 .lt-ie9
-    .radio-group label,
+  .radio-group label,
 .lt-ie9
-    .radio-group .control-range .connector,
+  .radio-group .control-range .connector,
 .control-range .lt-ie9
-    .radio-group .connector {
+  .radio-group .connector {
 	padding: 0;
 	display: block;
 	float: left;
@@ -7619,11 +7611,11 @@ label sup[title="Required"],
 .lt-ie9 .checkbox-group .control-range .connector:before,
 .control-range .lt-ie9 .checkbox-group .connector:before,
 .lt-ie9
-      .radio-group label:before,
+    .radio-group label:before,
 .lt-ie9
-      .radio-group .control-range .connector:before,
+    .radio-group .control-range .connector:before,
 .control-range .lt-ie9
-      .radio-group .connector:before {
+    .radio-group .connector:before {
 	display: none;
 }
 
@@ -7631,11 +7623,11 @@ label sup[title="Required"],
 .lt-ie9 .checkbox-group .control-range .disabled.connector,
 .control-range .lt-ie9 .checkbox-group .disabled.connector,
 .lt-ie9
-      .radio-group label.disabled,
+    .radio-group label.disabled,
 .lt-ie9
-      .radio-group .control-range .disabled.connector,
+    .radio-group .control-range .disabled.connector,
 .control-range .lt-ie9
-      .radio-group .disabled.connector {
+    .radio-group .disabled.connector {
 	color: #d4d4d4;
 	cursor: not-allowed;
 }
@@ -7671,11 +7663,11 @@ label sup[title="Required"],
 .lt-ie9 .checkbox-group .control-range [type="radio"] + .connector,
 .control-range .lt-ie9 .checkbox-group [type="radio"] + .connector,
 .lt-ie9
-    .radio-group [type="radio"] + label,
+  .radio-group [type="radio"] + label,
 .lt-ie9
-    .radio-group .control-range [type="radio"] + .connector,
+  .radio-group .control-range [type="radio"] + .connector,
 .control-range .lt-ie9
-    .radio-group [type="radio"] + .connector {
+  .radio-group [type="radio"] + .connector {
 	top: 0;
 	position: static;
 }
@@ -7725,12 +7717,6 @@ label sup[title="Required"],
 .radio-group .terms-checkbox {
 	color: #999;
 	width: 90%;
-}
-
-.checkbox-group.disabled,
-.radio-group.disabled {
-	color: red !important;
-	cursor: not-allowed;
 }
 
 .search-section .checkbox-group {
@@ -8180,7 +8166,7 @@ button.btn {
 	color: #fff;
 	font-size: 0.875em;
 	text-align: center;
-	background: #2f373a;
+	background: #c71633;
 	padding: 0.42857em 1.42857em 0.35714em;
 	width: 100%;
 	height: 2.14286em;
